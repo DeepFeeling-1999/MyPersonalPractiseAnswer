@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6458fb2-d08f-425d-9689-80225293cef6" name="Default Changelist" comment="" />
+    <list default="true" id="45ee3401-aa47-4ff9-b31f-529336c0e31b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1YD3uV0onp3IU2uy5f09uwn6rBL" />
+  <component name="ProjectId" id="1YDGiiFoLzWvlmzttb0agSoKrBS" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,12 +22,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6458fb2-d08f-425d-9689-80225293cef6" name="Default Changelist" comment="" />
-      <created>1582463559702</created>
+      <changelist id="45ee3401-aa47-4ff9-b31f-529336c0e31b" name="Default Changelist" comment="" />
+      <created>1582469879042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582463559702</updated>
-      <workItem from="1582463561829" duration="325000" />
+      <updated>1582469879042</updated>
     </task>
     <servers />
   </component>
