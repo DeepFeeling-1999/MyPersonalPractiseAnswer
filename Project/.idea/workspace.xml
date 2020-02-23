@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="600ba770-ae92-48aa-97ca-4f0262ffbc3a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QXBItqZOFqPs6boaX9RZzHAQdW" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ButtonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11_Event.ButtonFrame.ButtonTest" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter11_Event.ButtonFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10_JFrame.MyImage.ImageTest" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter10_JFrame.MyImage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlafFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter11_Event.PlafFrame.PlafFrameTest" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter11_Event.PlafFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Static.Test" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ATemp.Test" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.ATemp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ImageTest" />
+      <item itemvalue="Application.ButtonTest" />
+      <item itemvalue="Application.PlafFrameTest" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.PlafFrameTest" />
+        <item itemvalue="Application.ButtonTest" />
+        <item itemvalue="Application.ImageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="600ba770-ae92-48aa-97ca-4f0262ffbc3a" name="Default Changelist" comment="" />
+      <created>1567906983624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567906983624</updated>
+      <workItem from="1567906985162" duration="3223000" />
+      <workItem from="1567911021729" duration="24000" />
+      <workItem from="1568215814996" duration="460000" />
+      <workItem from="1568216415717" duration="1000000" />
+      <workItem from="1568217635395" duration="7000" />
+      <workItem from="1568286854063" duration="361000" />
+      <workItem from="1568287220913" duration="131000" />
+      <workItem from="1568806208571" duration="631000" />
+      <workItem from="1568808374234" duration="24000" />
+      <workItem from="1568808541717" duration="1964000" />
+      <workItem from="1568811025418" duration="1488000" />
+      <workItem from="1568812615580" duration="132000" />
+      <workItem from="1568812776147" duration="56000" />
+      <workItem from="1568880458688" duration="8343000" />
+      <workItem from="1568889271164" duration="2000" />
+      <workItem from="1568889277276" duration="515000" />
+      <workItem from="1568893897208" duration="5634000" />
+      <workItem from="1568938750329" duration="732000" />
+      <workItem from="1568939535896" duration="3774000" />
+      <workItem from="1569115778594" duration="2100000" />
+      <workItem from="1569118106457" duration="2000" />
+      <workItem from="1569118122535" duration="2034000" />
+      <workItem from="1569120337075" duration="1744000" />
+      <workItem from="1569122688548" duration="19394000" />
+      <workItem from="1569155767620" duration="4256000" />
+      <workItem from="1569456430011" duration="151000" />
+      <workItem from="1570691792067" duration="2437000" />
+      <workItem from="1570694320920" duration="594000" />
+      <workItem from="1570694940138" duration="45000" />
+      <workItem from="1570695027693" duration="677000" />
+      <workItem from="1570697368092" duration="4273000" />
+      <workItem from="1570701865485" duration="10000" />
+      <workItem from="1570701888453" duration="394000" />
+      <workItem from="1570702337084" duration="93000" />
+      <workItem from="1570704147052" duration="8764000" />
+      <workItem from="1570781386058" duration="17360000" />
+      <workItem from="1570875376560" duration="947000" />
+      <workItem from="1570876383656" duration="257000" />
+      <workItem from="1570876755256" duration="39000" />
+      <workItem from="1570876806807" duration="6731000" />
+      <workItem from="1570884738307" duration="2000" />
+      <workItem from="1570884794722" duration="1216000" />
+      <workItem from="1570886039876" duration="145000" />
+      <workItem from="1570886198757" duration="237000" />
+      <workItem from="1570886450915" duration="1614000" />
+      <workItem from="1570929273984" duration="12741000" />
+      <workItem from="1570952475597" duration="3931000" />
+      <workItem from="1570956421920" duration="7122000" />
+      <workItem from="1571032841776" duration="10209000" />
+      <workItem from="1571050569593" duration="1926000" />
+      <workItem from="1571122715917" duration="15904000" />
+      <workItem from="1571144692221" duration="497000" />
+      <workItem from="1571184898152" duration="11300000" />
+      <workItem from="1571220696500" duration="9877000" />
+      <workItem from="1571294537215" duration="10242000" />
+      <workItem from="1571308023556" duration="6855000" />
+      <workItem from="1571315406569" duration="113000" />
+      <workItem from="1571386473480" duration="7768000" />
+      <workItem from="1571539750175" duration="6435000" />
+      <workItem from="1571645007267" duration="2678000" />
+      <workItem from="1571647864057" duration="11537000" />
+      <workItem from="1571726050263" duration="8326000" />
+      <workItem from="1571915054464" duration="7704000" />
+      <workItem from="1571998799595" duration="6725000" />
+      <workItem from="1572052950375" duration="4663000" />
+      <workItem from="1572089819271" duration="2445000" />
+      <workItem from="1573454641514" duration="10708000" />
+      <workItem from="1573472067328" duration="226000" />
+      <workItem from="1573472305750" duration="6327000" />
+      <workItem from="1573524639841" duration="1948000" />
+      <workItem from="1573526795214" duration="3215000" />
+      <workItem from="1573550395731" duration="9049000" />
+      <workItem from="1573641357934" duration="2899000" />
+      <workItem from="1573644996715" duration="5635000" />
+      <workItem from="1573691798444" duration="4613000" />
+      <workItem from="1573713896761" duration="14624000" />
+      <workItem from="1573812915511" duration="8403000" />
+      <workItem from="1573870333333" duration="3755000" />
+      <workItem from="1573901869206" duration="7468000" />
+      <workItem from="1573969533459" duration="7403000" />
+      <workItem from="1573982918611" duration="3874000" />
+      <workItem from="1574132960224" duration="1171000" />
+      <workItem from="1574144008017" duration="5565000" />
+      <workItem from="1574154663794" duration="5502000" />
+      <workItem from="1574303212379" duration="14533000" />
+      <workItem from="1574475026142" duration="3852000" />
+      <workItem from="1574494675537" duration="4572000" />
+      <workItem from="1574562387995" duration="3582000" />
+      <workItem from="1574575727400" duration="1716000" />
+      <workItem from="1574648025807" duration="2162000" />
+      <workItem from="1574678558276" duration="1014000" />
+      <workItem from="1574680015323" duration="2000" />
+      <workItem from="1574903457931" duration="1931000" />
+      <workItem from="1574905973761" duration="5352000" />
+      <workItem from="1575442230778" duration="55000" />
+      <workItem from="1575534388975" duration="925000" />
+      <workItem from="1575725005651" duration="597000" />
+      <workItem from="1575948465154" duration="441000" />
+      <workItem from="1575949117542" duration="311000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter8_Generic/GenericReflection/GenericReflectionTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter8_Generic/GenericReflection/GenericReflectionTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter10_JFrame/paintComponent/NoHelloWorld.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter10_JFrame/Ellipse2D/Ellipse2DTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project$ReflectionTest.ic" NAME="ReflectionTest Coverage Results" MODIFIED="1569158766446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Extends_5.Reflection.*</FILTER>
+    </SUITE>
+  </component>
+</project>
