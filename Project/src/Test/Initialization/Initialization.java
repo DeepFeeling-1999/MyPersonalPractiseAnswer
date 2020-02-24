@@ -1,4 +1,4 @@
-package ThinkingInJava.Practise161;
+package Test.Initialization;
 
 class temp1{
     private int temp1_num1;
