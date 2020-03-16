@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise191/t1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise192/t2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise214/LocalInnerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/ATemp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ATemp/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise180/t13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise180/t13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise181/t14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise181/t14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/t13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/t13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/testInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/testInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/superClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/superClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/t14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/t14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/testInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/testInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.Initialization">
+  <component name="RunManager" selected="Application.t1">
+    <configuration name="BigEgg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise213.BigEgg2" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise213.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Initialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Initialization.Initialization" />
       <module name="Project" />
@@ -76,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ATemp.Test" />
+    <configuration name="LocalInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise214.LocalInnerClass" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.ATemp.*" />
+          <option name="PATTERN" value="ThinkingInJava.Practise214.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise179.t12" />
+    <configuration name="t1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise191.t1" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise179.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise180.t13" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise180.*" />
+          <option name="PATTERN" value="ThinkingInJava.Practise191.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.t1" />
+        <item itemvalue="Application.LocalInnerClass" />
+        <item itemvalue="Application.BigEgg2" />
         <item itemvalue="Application.Initialization" />
         <item itemvalue="Application.t14" />
-        <item itemvalue="Application.t13" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.t12" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +168,11 @@
       <workItem from="1583762075933" duration="10000" />
       <workItem from="1583900671145" duration="52000" />
       <workItem from="1583933633361" duration="940000" />
+      <workItem from="1584231074059" duration="2143000" />
+      <workItem from="1584241698911" duration="7509000" />
+      <workItem from="1584251299245" duration="2530000" />
+      <workItem from="1584265671212" duration="5098000" />
+      <workItem from="1584342799958" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -219,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583143962901</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020 3 15  8.12">
+      <created>1584231152642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584231152642</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +268,8 @@
     <MESSAGE value="2020 3 2 11.31" />
     <MESSAGE value="2020 3 2 16.29" />
     <MESSAGE value="2020 3 2 18.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 3 2 18.12" />
+    <MESSAGE value="2020 3 15  8.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 3 15  8.12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Notifications" timestamp="1583079503162">
@@ -265,58 +284,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="247" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1583934545944" />
-    <state x="355" y="2" key="CommitChangelistDialog2" timestamp="1583143962275">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1584270329308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583143962275" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584270329308" />
+    <state x="355" y="2" key="CommitChangelistDialog2" timestamp="1584231151689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="355" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584231151689" />
     <state x="990" y="162" key="FileChooserDialogImpl" timestamp="1583934514198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583934514198" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1584231120571">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584262927316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584231120571" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1584231120571">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584262927316" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584262927316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584231120571" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1584231120571">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584262927316" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584262927315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584231120571" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1584231120571">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584262927315" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584262927316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584231120571" />
-    <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1584231120790">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584262927316" />
+    <state width="1493" height="244" key="GridCell.Tab.1.bottom" timestamp="1584262927310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584231120790" />
-    <state width="1493" height="213" key="GridCell.Tab.1.center" timestamp="1584231120790">
+    <state width="1493" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
+    <state width="1493" height="244" key="GridCell.Tab.1.center" timestamp="1584262927310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584231120790" />
-    <state width="1493" height="213" key="GridCell.Tab.1.left" timestamp="1584231120790">
+    <state width="1493" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
+    <state width="1493" height="244" key="GridCell.Tab.1.left" timestamp="1584262927310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584231120790" />
-    <state width="1493" height="213" key="GridCell.Tab.1.right" timestamp="1584231120790">
+    <state width="1493" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
+    <state width="1493" height="244" key="GridCell.Tab.1.right" timestamp="1584262927310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584231120790" />
+    <state width="1493" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
+    <state x="676" y="55" key="Registry" timestamp="1584251328307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="676" y="55" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1584251328307" />
     <state x="392" y="89" width="1021" height="707" key="SettingsEditor" timestamp="1583934390717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="392" y="89" width="1021" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583934390717" />
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1583143971499">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1584231164171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583143971499" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583130578477">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584231164171" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584231155548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1583130578477" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584231155548" />
     <state x="411" y="203" key="git4idea.merge.GitPullDialog" timestamp="1583118358032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -325,6 +352,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="446" y="234" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1583117168762" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584251324077">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584251324077" />
     <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1583079341600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -341,6 +372,281 @@
           <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise180/t13.java</url>
           <line>51</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise214/LocalInnerClass.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>43</line>
+          <properties field="main_num1" class="Test.Initialization.Initialization" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>44</line>
+          <properties field="main_num2" class="Test.Initialization.Initialization" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>3</line>
+          <properties field="temp1_num1" class="Test.Initialization.temp1" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>4</line>
+          <properties field="temp1_num2" class="Test.Initialization.temp1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>18</line>
+          <properties field="temp1_num3" class="Test.Initialization.temp1" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>19</line>
+          <properties field="temp1_num4" class="Test.Initialization.temp1" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>23</line>
+          <properties field="temp2_num1" class="Test.Initialization.temp2" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>24</line>
+          <properties field="temp2_num2" class="Test.Initialization.temp2" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>38</line>
+          <properties field="temp2_num3" class="Test.Initialization.temp2" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>39</line>
+          <properties field="temp2_num4" class="Test.Initialization.temp2" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>62</line>
+          <properties field="main_num3" class="Test.Initialization.Initialization" />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>63</line>
+          <properties field="main_num4" class="Test.Initialization.Initialization" />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>46</line>
+          <properties class="Test.Initialization.Initialization" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>50</line>
+          <properties class="Test.Initialization.Initialization" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>6</line>
+          <properties class="Test.Initialization.temp1" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
+          <line>26</line>
+          <properties class="Test.Initialization.temp2" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>6</line>
+          <properties class="ThinkingInJava.Practise213.Egg2.yolk" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java</url>
+          <line>39</line>
+          <properties class="ThinkingInJava.Practise213.BigEgg2.yolk" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
