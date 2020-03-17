@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise191/t1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise192/t2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise214/LocalInnerClass.java" afterDir="false" />
+    <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="2020 3 16 23.19">
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise192_3/t3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise194_4/t4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise194_5/t5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise195/t6_1/testInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise195/t6_2/t6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise195/t6_3/t6C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise195/t7/t7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/t13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/t13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/testInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/testInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/superClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/superClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/t14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/t14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/testInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/testInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise192/t2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise192/t2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,46 +67,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.t1">
-    <configuration name="BigEgg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise213.BigEgg2" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise213.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Initialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Initialization.Initialization" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.Initialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocalInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise214.LocalInnerClass" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise214.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.t7">
     <configuration name="t1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise191.t1" />
       <module name="Project" />
@@ -121,12 +81,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise181.t14" />
+    <configuration name="t4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise194_4.t4" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise181.*" />
+          <option name="PATTERN" value="ThinkingInJava.Practise194_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise194_5.t5" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise194_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t6C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise195.t6_3.t6C" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise195.t6_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise195.t7.t7" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise195.t7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.t7" />
+        <item itemvalue="Application.t6C" />
         <item itemvalue="Application.t1" />
-        <item itemvalue="Application.LocalInnerClass" />
-        <item itemvalue="Application.BigEgg2" />
-        <item itemvalue="Application.Initialization" />
-        <item itemvalue="Application.t14" />
+        <item itemvalue="Application.t5" />
+        <item itemvalue="Application.t4" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,8 @@
       <workItem from="1584241698911" duration="7509000" />
       <workItem from="1584251299245" duration="2530000" />
       <workItem from="1584265671212" duration="5098000" />
-      <workItem from="1584342799958" duration="2313000" />
+      <workItem from="1584342799958" duration="2665000" />
+      <workItem from="1584435270143" duration="8721000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584231152642</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2020 3 16 23.19">
+      <created>1584372010712</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584372010712</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +276,8 @@
     <MESSAGE value="2020 3 2 16.29" />
     <MESSAGE value="2020 3 2 18.12" />
     <MESSAGE value="2020 3 15  8.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 3 15  8.12" />
+    <MESSAGE value="2020 3 16 23.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 3 16 23.19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Notifications" timestamp="1583079503162">
@@ -288,46 +296,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584270329308" />
-    <state x="355" y="2" key="CommitChangelistDialog2" timestamp="1584231151689">
+    <state x="355" y="2" key="CommitChangelistDialog2" timestamp="1584372041126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584231151689" />
+    <state x="355" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584372041126" />
     <state x="990" y="162" key="FileChooserDialogImpl" timestamp="1583934514198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583934514198" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584262927316">
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom" timestamp="1584455306621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584262927316" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584262927316">
+    <state width="1493" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584455306621" />
+    <state width="1493" height="147" key="GridCell.Tab.0.center" timestamp="1584455306621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584262927316" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584262927315">
+    <state width="1493" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584455306621" />
+    <state width="1493" height="147" key="GridCell.Tab.0.left" timestamp="1584455306621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584262927315" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584262927316">
+    <state width="1493" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584455306621" />
+    <state width="1493" height="147" key="GridCell.Tab.0.right" timestamp="1584455306621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584262927316" />
-    <state width="1493" height="244" key="GridCell.Tab.1.bottom" timestamp="1584262927310">
+    <state width="1493" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584455306621" />
+    <state width="1493" height="147" key="GridCell.Tab.1.bottom" timestamp="1584455306683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
-    <state width="1493" height="244" key="GridCell.Tab.1.center" timestamp="1584262927310">
+    <state width="1493" height="147" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584455306683" />
+    <state width="1493" height="147" key="GridCell.Tab.1.center" timestamp="1584455306683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
-    <state width="1493" height="244" key="GridCell.Tab.1.left" timestamp="1584262927310">
+    <state width="1493" height="147" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584455306683" />
+    <state width="1493" height="147" key="GridCell.Tab.1.left" timestamp="1584455306683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
-    <state width="1493" height="244" key="GridCell.Tab.1.right" timestamp="1584262927310">
+    <state width="1493" height="147" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584455306683" />
+    <state width="1493" height="147" key="GridCell.Tab.1.right" timestamp="1584455306683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584262927310" />
+    <state width="1493" height="147" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584455306683" />
     <state x="676" y="55" key="Registry" timestamp="1584251328307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -336,10 +344,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="392" y="89" width="1021" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583934390717" />
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1584231164171">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1584372051381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584231164171" />
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584372051381" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584231155548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -527,6 +535,16 @@
           <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise214/LocalInnerClass.java</url>
           <line>47</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise194_5/t5.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise191/t1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
