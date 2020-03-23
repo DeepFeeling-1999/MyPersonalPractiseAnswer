@@ -2,69 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/InnerClass/AnonymousInnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/InnerClass/InnerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise150_199/Practise199/t15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise202/t19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise203/t21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/InnerClass/InheritInner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise212/t26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise150/bicycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise150/cycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise150/t1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise150/tricycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise153/t3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise153/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise153/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise155/t10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise155/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise155/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise156/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise156/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise156/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/Bread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/Cheese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/Lettuce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/Lunch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/Meal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/Pickle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/PortableLunch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise159/t11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise162/t14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise171/t1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise171/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise171/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise172/t4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise172/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise172/temp11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise172/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise172/temp22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise174/practise5/interfaceTest/t1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise174/practise5/t5/T55.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise174/practise5/t5/T555.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise174/practise9/superClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise174/practise9/t9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/CanClimb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/i1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/i2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/i3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/superClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/t12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise179/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/subInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/superInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/t13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/temp3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise180/testInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/subInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/superClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/t14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/temp1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/temp2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/temp3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise181/testInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise213/BigEgg2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise213/BigEgg2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise214/LocalInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise214/LocalInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Test/ATemp/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/Test/ATemp/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ATemp/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ATemp/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/InnerClass/ClassInInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/InnerClass/ClassInInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise203/t21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_300/Practise203/t21.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,20 +68,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.ClassInInterface">
-    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.InnerClass.AnonymousInnerClass" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.InnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.InheritInner">
     <configuration name="ClassInInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.InnerClass.ClassInInterface" />
       <module name="Project" />
@@ -151,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise150_199.Practise199.t12" />
+    <configuration name="InheritInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.InnerClass.InheritInner" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise150_199.Practise199.*" />
+          <option name="PATTERN" value="Test.InnerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise150_199.Practise199.t15" />
+    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.InnerClass.InnerClassTest" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise150_199.Practise199.*" />
+          <option name="PATTERN" value="Test.InnerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="t26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise201_300.Practise212.t26" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise201_300.Practise212.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritInner" />
+        <item itemvalue="Application.t26" />
+        <item itemvalue="Application.InnerClassTest" />
         <item itemvalue="Application.ClassInInterface" />
         <item itemvalue="Application.t21" />
-        <item itemvalue="Application.AnonymousInnerClass" />
-        <item itemvalue="Application.t15" />
-        <item itemvalue="Application.t12" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +177,9 @@
       <workItem from="1584758701279" duration="347000" />
       <workItem from="1584759082362" duration="7192000" />
       <workItem from="1584771783120" duration="9703000" />
-      <workItem from="1584790247214" duration="1317000" />
+      <workItem from="1584790247214" duration="1657000" />
+      <workItem from="1584838512257" duration="3767000" />
+      <workItem from="1584948345021" duration="12764000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -319,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584772215354</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2020 3 21 19.56">
+      <created>1584791814504</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584791814504</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +308,8 @@
     <MESSAGE value="2020 3 17 22.29" />
     <MESSAGE value="2020 3 21 14.29" />
     <MESSAGE value="2020 3 21 14.30" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 3 21 14.30" />
+    <MESSAGE value="2020 3 21 19.56" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 3 21 19.56" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Notifications" timestamp="1583079503162">
@@ -374,46 +328,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584779656451" />
-    <state x="355" y="2" key="CommitChangelistDialog2" timestamp="1584772214323">
+    <state x="210" y="2" key="CommitChangelistDialog2" timestamp="1584977304206">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="355" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584772214323" />
+    <state x="210" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584977304206" />
     <state x="990" y="162" key="FileChooserDialogImpl" timestamp="1583934514198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583934514198" />
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1584791747357">
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom" timestamp="1584977186943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584791747357" />
-    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1584791747357">
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584977186943" />
+    <state width="1493" height="148" key="GridCell.Tab.0.center" timestamp="1584977186943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584791747357" />
-    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1584791747357">
+    <state width="1493" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584977186943" />
+    <state width="1493" height="148" key="GridCell.Tab.0.left" timestamp="1584977186943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584791747357" />
-    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1584791747357">
+    <state width="1493" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584977186943" />
+    <state width="1493" height="148" key="GridCell.Tab.0.right" timestamp="1584977186943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584791747357" />
-    <state width="937" height="147" key="GridCell.Tab.1.bottom" timestamp="1584791584162">
+    <state width="1493" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584977186943" />
+    <state width="1493" height="148" key="GridCell.Tab.1.bottom" timestamp="1584977187057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="937" height="147" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584791584162" />
-    <state width="937" height="147" key="GridCell.Tab.1.center" timestamp="1584791584162">
+    <state width="1493" height="148" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584977187057" />
+    <state width="1493" height="148" key="GridCell.Tab.1.center" timestamp="1584977187057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="937" height="147" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584791584162" />
-    <state width="937" height="147" key="GridCell.Tab.1.left" timestamp="1584791584162">
+    <state width="1493" height="148" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584977187057" />
+    <state width="1493" height="148" key="GridCell.Tab.1.left" timestamp="1584977187057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="937" height="147" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584791584162" />
-    <state width="937" height="147" key="GridCell.Tab.1.right" timestamp="1584791584162">
+    <state width="1493" height="148" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584977187057" />
+    <state width="1493" height="148" key="GridCell.Tab.1.right" timestamp="1584977187057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="937" height="147" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584791584162" />
+    <state width="1493" height="148" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584977187057" />
     <state x="676" y="55" key="Registry" timestamp="1584251328307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -422,14 +376,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="392" y="89" width="1021" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584771754227" />
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1584772236518">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1584977321710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584772236518" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584791770508">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584977321710" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584977310847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584791770508" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1584977310847" />
     <state x="411" y="203" key="git4idea.merge.GitPullDialog" timestamp="1583118358032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -638,6 +592,11 @@
           <url>file://$PROJECT_DIR$/src/Test/InnerClass/AnonymousInnerClass.java</url>
           <line>42</line>
           <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/InnerClass/InheritInner.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>

@@ -12,8 +12,7 @@ interface testInterface{
     void InterfaceFun();
 }
 
-public class ClassInInterface implements testInterface
-{
+public class ClassInInterface implements testInterface {
     public void InterfaceFun(){
         System.out.println("main interface function");
     }

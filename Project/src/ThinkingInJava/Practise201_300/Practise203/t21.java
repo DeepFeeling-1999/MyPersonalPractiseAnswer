@@ -12,8 +12,8 @@ interface ClassInInterface{
     }
     void InterfaceFun();
 }
-public class t21 implements ClassInInterface
-{
+
+public class t21 implements ClassInInterface {
     public void InterfaceFun(){
         System.out.println("main interface function");
     }
