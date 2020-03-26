@@ -1,10 +1,11 @@
-package ThinkingInJava.Practise201_300.Practise225;
+package Test.Collection;
+
 
 import java.util.*;
 
-public class t5
+public class ListTest
 {
-    public static List<Integer> ListOfRandInteger(int length,int n){
+    public static List<Integer> ListOfRandInteger(int length, int n){
         Random rand =new Random(47);
         List<Integer> li=new ArrayList<Integer>();
 
@@ -83,3 +84,4 @@ public class t5
 
     }
 }
+
