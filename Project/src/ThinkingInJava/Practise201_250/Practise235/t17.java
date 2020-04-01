@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-class temp1{
+class temp1 implements Comparable{
     int number;
 
     public temp1(int number){
@@ -12,8 +12,18 @@ class temp1{
     }
 
     @Override
-    public String toString()
+    public int compareTo(Object o)
     {
+        return number-(((temp1)o).getNumber());
+    }
+
+    public int getNumber()
+    {
+        return number;
+    }
+
+    @Override
+    public String toString() {
         return "temp1{" + "number=" + number + '}';
     }
 }
@@ -28,8 +38,7 @@ class temp2{
     }
 
     @Override
-    public String toString()
-    {
+    public String toString() {
         return "temp2{" + "st='" + st + '\'' + '}';
     }
 }
