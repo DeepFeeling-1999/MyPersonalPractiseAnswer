@@ -23,8 +23,7 @@ class test{
        return q;
    }
 }
-public class t27
-{
+public class t27 {
     public static void test(Queue<command> q){
         while(q.peek()!=null){
             q.poll().operation();
