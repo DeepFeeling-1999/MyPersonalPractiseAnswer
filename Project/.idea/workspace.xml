@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/ATemp/InnerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_250/Practise238/t28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_250/Practise241/t30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_250/Practise245/t32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise253/t4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise255/t6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise256/t8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise263/t10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Test/ATemp/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Test/ATemp/t666.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/ATemp/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/ATemp/t666.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_250/Practise237/t27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise201_250/Practise237/t27.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,52 +66,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.t32">
-    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.ATemp.InnerClassTest" />
+  <component name="RunManager" selected="Application.t10">
+    <configuration name="t10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise253_300.Practise263.t10" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.ATemp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise201_250.Practise237.t27" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise201_250.Practise237.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise201_250.Practise238.t28" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise201_250.Practise238.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise201_250.Practise241.t30" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise201_250.Practise241.*" />
+          <option name="PATTERN" value="ThinkingInJava.Practise253_300.Practise263.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +93,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="t4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise253_300.Practise253.t4" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise253_300.Practise253.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise253_300.Practise255.t6" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise253_300.Practise255.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise253_300.Practise256.t8" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ThinkingInJava.Practise253_300.Practise256.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.t10" />
+        <item itemvalue="Application.t8" />
+        <item itemvalue="Application.t6" />
+        <item itemvalue="Application.t4" />
         <item itemvalue="Application.t32" />
-        <item itemvalue="Application.InnerClassTest" />
-        <item itemvalue="Application.t30" />
-        <item itemvalue="Application.t28" />
-        <item itemvalue="Application.t27" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +192,8 @@
       <workItem from="1585723955305" duration="5170000" />
       <workItem from="1585753665528" duration="631000" />
       <workItem from="1585967787482" duration="17574000" />
-      <workItem from="1586011243822" duration="588000" />
+      <workItem from="1586011243822" duration="2256000" />
+      <workItem from="1586074129668" duration="10122000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -339,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585754178979</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2020 4 4 22.51">
+      <created>1586011923373</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586011923373</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +386,8 @@
     <MESSAGE value="2020 3 26 21.31" />
     <MESSAGE value="2020 3 31 23.14" />
     <MESSAGE value="2020 4 1 23.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 4 1 23.16" />
+    <MESSAGE value="2020 4 4 22.51" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 4 4 22.51" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Notifications" timestamp="1583079503162">
@@ -402,46 +406,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585969219806" />
-    <state x="390" y="2" key="CommitChangelistDialog2" timestamp="1586011848991">
+    <state x="390" y="2" key="CommitChangelistDialog2" timestamp="1586011922608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="390" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586011848991" />
+    <state x="390" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586011922608" />
     <state x="990" y="162" key="FileChooserDialogImpl" timestamp="1583934514198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583934514198" />
-    <state width="1167" height="142" key="GridCell.Tab.0.bottom" timestamp="1586011202290">
+    <state width="1096" height="143" key="GridCell.Tab.0.bottom" timestamp="1586101913486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.0.center" timestamp="1586011202290">
+    <state width="1096" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586101913486" />
+    <state width="1096" height="143" key="GridCell.Tab.0.center" timestamp="1586101913486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.0.left" timestamp="1586011202290">
+    <state width="1096" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586101913486" />
+    <state width="1096" height="143" key="GridCell.Tab.0.left" timestamp="1586101913486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.0.right" timestamp="1586011202290">
+    <state width="1096" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586101913486" />
+    <state width="1096" height="143" key="GridCell.Tab.0.right" timestamp="1586101913486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.1.bottom" timestamp="1586011202290">
+    <state width="1096" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586101913486" />
+    <state width="1162" height="142" key="GridCell.Tab.1.bottom" timestamp="1586101861202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.1.center" timestamp="1586011202290">
+    <state width="1162" height="142" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586101861202" />
+    <state width="1162" height="142" key="GridCell.Tab.1.center" timestamp="1586101861202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.1.left" timestamp="1586011202290">
+    <state width="1162" height="142" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586101861202" />
+    <state width="1162" height="142" key="GridCell.Tab.1.left" timestamp="1586101861202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
-    <state width="1167" height="142" key="GridCell.Tab.1.right" timestamp="1586011202290">
+    <state width="1162" height="142" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586101861202" />
+    <state width="1162" height="142" key="GridCell.Tab.1.right" timestamp="1586101861202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1167" height="142" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586011202290" />
+    <state width="1162" height="142" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586101861202" />
     <state x="676" y="55" key="Registry" timestamp="1584251328307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -450,14 +454,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="392" y="89" width="1021" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585153750413" />
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1585754249350">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1586011946740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585754249350" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586011105684">
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586011946740" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586102504347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586011105684" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586102504347" />
     <state x="499" y="176" key="extract.method.dialog" timestamp="1585652670226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -700,6 +704,21 @@
           <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise201_250/Practise241/t30.java</url>
           <line>48</line>
           <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise253/t4.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise256/t8.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ThinkingInJava/Practise253_300/Practise263/t10.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
