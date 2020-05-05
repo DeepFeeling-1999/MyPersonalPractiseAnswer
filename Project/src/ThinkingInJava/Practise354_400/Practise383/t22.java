@@ -4,7 +4,11 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 
-class temp1 {}
+class temp1 {
+    public temp1() {
+
+    }
+}
 
 class temp11 extends temp1 {
     private String location;
@@ -39,11 +43,13 @@ public class t22<T> {
         this.kind = kind;
     }
 
-    public Object fun1(String st) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+    public Object fun1(String st) throws ClassNotFoundException, NoSuchMethodException,
+            IllegalAccessException, InvocationTargetException, InstantiationException {
         return Class.forName(st).getDeclaredConstructor().newInstance();
     }
 
-    public Object fun2(String st, Object... args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+    public Object fun2(String st, Object... args) throws ClassNotFoundException, NoSuchMethodException,
+            IllegalAccessException, InvocationTargetException, InstantiationException {
         switch (args.length) {
             case 1:
                 return Class.forName(st).getDeclaredConstructor(args[0].getClass()).newInstance(args[0]);
@@ -58,7 +64,7 @@ public class t22<T> {
         t22<temp11> t222 = new t22<>(temp11.class);
 
         try {
-            temp1 t1 = (temp1) t221.fun1("temp1");
+            temp1 t1 = (temp1) t221.fun1("ThinkingInJava.Practise354_400.Practise383.temp1");
             System.out.println(t1);
             System.out.println("****************");
 
@@ -69,7 +75,7 @@ public class t22<T> {
 
             System.out.println("****************");
 
-            temp11 t11 = (temp11) t222.fun2("temp11", "aaa", 666);
+            temp11 t11 = (temp11) t222.fun2("ThinkingInJava.Practise354_400.Practise383.temp11", "aaa", 666);
             System.out.println(t11);
         } catch (InstantiationException e) {
             e.printStackTrace();
@@ -84,9 +90,6 @@ public class t22<T> {
         }
     }
 }
-
-
-
 
 
 

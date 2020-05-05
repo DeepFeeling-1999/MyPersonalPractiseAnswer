@@ -2,7 +2,7 @@ package Test.ATemp;
 
 
 public class Solution {
-    private String str;
+    /*private String str;
 
     private int num;
 
@@ -32,6 +32,8 @@ public class Solution {
         Solution solution3 = (Solution) Class.forName("Solution").getConstructor().newInstance(); // 无参也可用getConstructor()
         System.out.println(solution3 instanceof Solution); // true
 
-    }
+    }*/
+
+
 
 }

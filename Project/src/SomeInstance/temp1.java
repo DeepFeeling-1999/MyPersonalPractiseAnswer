@@ -15,4 +15,18 @@ public class temp1 {
     public String toString() {
         return "temp1 + "+num;
     }
+
+
+
+    public static void main(String[]args){
+        temp1 result=new temp1(666);
+        temp1 tail =result;
+
+
+        temp1 last=new temp1(999);
+        tail=last;
+
+        System.out.println(result);
+        System.out.println(tail);
+    }
 }
