@@ -12,7 +12,7 @@ public class temp11 extends temp1{
     }
     public temp11(String st){
         this.st=st;
-        System.out.println("public temp1(String st)");
+        System.out.println("public temp11(String st)");
     }
     public temp11(String st,int num){
         super(num);

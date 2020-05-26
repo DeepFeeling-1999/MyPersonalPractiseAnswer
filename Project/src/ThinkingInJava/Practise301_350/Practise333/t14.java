@@ -23,6 +23,7 @@ class temp2 {
 
 class temp22 extends temp2 {
     public static class ttt implements Factory<temp22>{
+        @Override
         public temp22 create(){
             return new temp22();
         }
@@ -62,7 +63,8 @@ public class t14 {
        for(Class<?>c:partClass){
            System.out.println(c.getDeclaredConstructor().newInstance());
        }
-       for(Factory t: partFactory)
+       for(Factory t: partFactory) {
            System.out.println(t.create());
+       }
     }
 }

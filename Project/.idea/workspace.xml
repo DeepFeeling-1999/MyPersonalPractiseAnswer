@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +22,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="" />
+    <list default="true" id="1a5160d0-28a6-469a-8a0a-e39527ff0120" name="Default Changelist" comment="2020 5 26 21.06">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/SomeInstance/Holder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/SomeInstance/temp111.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/Test/ATemp/BookSystem/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/Test/ATemp/BookSystem/BookSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise391/t27.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise391/temp1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise391/temp11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise391/temp111.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise395/t28$myGeneric1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise395/t28$myGeneric2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise395/t28.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise399/t29.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise408_450/Practise408/t.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SomeInstance/Holder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SomeInstance/temp111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ATemp/BookSystem/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise354_400/Practise395/t28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise354_400/Practise399/t29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise408_450/Practise408/t.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/META-INF/Project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/SomeInstance/temp11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/SomeInstance/temp11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Test/ATemp/LeetCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/Test/ATemp/LeetCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Test/ATemp/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Test/ATemp/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/Test/ATemp/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise391/t26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/ThinkingInJava/Practise354_400/Practise391/t26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreJava/Chapter6_Interface/InnerClass/StaticInnerClass/StaticInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/Chapter6_Interface/InnerClass/StaticInnerClass/StaticInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoreJava/Chapter8_Generic/Pair1/PairTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJava/Chapter8_Generic/Pair1/PairTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SomeInstance/temp11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SomeInstance/temp11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ATemp/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ATemp/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/ATemp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ATemp/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise301_350/Practise333/t14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise301_350/Practise333/t14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise354_400/Practise391/t26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise354_400/Practise391/t26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThinkingInJava/Practise354_400/Practise391/t27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThinkingInJava/Practise354_400/Practise391/t27.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,24 +101,56 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LeetCode/LeetCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.16049382" />
   </component>
-  <component name="RunManager" selected="Application.t26">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="BookSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ATemp.BookSystem.BookSystem" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.ATemp.BookSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ATemp.ClassB" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.ATemp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.ATemp.LeetCode" />
       <module name="Project" />
@@ -90,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise354_400.Practise383.t22" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ATemp.BookSystem.Main" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise354_400.Practise383.*" />
+          <option name="PATTERN" value="Test.ATemp.BookSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,38 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise354_400.Practise383.t23" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ATemp.Solution" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise354_400.Practise383.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise354_400.Practise389.t25" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise354_400.Practise389.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThinkingInJava.Practise354_400.Practise391.t26" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThinkingInJava.Practise354_400.Practise391.*" />
+          <option name="PATTERN" value="Test.ATemp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,18 +191,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.t22" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.LeetCode" />
-      <item itemvalue="Application.t23" />
-      <item itemvalue="Application.t25" />
-      <item itemvalue="Application.t26" />
+      <item itemvalue="Application.BookSystem" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ClassB" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.t26" />
-        <item itemvalue="Application.t25" />
-        <item itemvalue="Application.t23" />
-        <item itemvalue="Application.t22" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ClassB" />
+        <item itemvalue="Application.BookSystem" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LeetCode" />
       </list>
     </recent_temporary>
@@ -253,6 +301,28 @@
       <workItem from="1588654278518" duration="404000" />
       <workItem from="1588665727400" duration="17834000" />
       <workItem from="1588694474842" duration="48000" />
+      <workItem from="1588766822350" duration="1803000" />
+      <workItem from="1588840181843" duration="5055000" />
+      <workItem from="1588911269719" duration="490000" />
+      <workItem from="1588948883311" duration="594000" />
+      <workItem from="1589001052691" duration="2077000" />
+      <workItem from="1589086957772" duration="2999000" />
+      <workItem from="1589191257485" duration="2969000" />
+      <workItem from="1589950964013" duration="1427000" />
+      <workItem from="1589961065784" duration="2604000" />
+      <workItem from="1589974175179" duration="3508000" />
+      <workItem from="1590131301552" duration="4153000" />
+      <workItem from="1590136238738" duration="7000" />
+      <workItem from="1590282910144" duration="4769000" />
+      <workItem from="1590325175317" duration="2484000" />
+      <workItem from="1590330345148" duration="759000" />
+      <workItem from="1590334029497" duration="804000" />
+      <workItem from="1590390976921" duration="226000" />
+      <workItem from="1590394607529" duration="652000" />
+      <workItem from="1590397785562" duration="6144000" />
+      <workItem from="1590498083891" duration="197000" />
+      <workItem from="1590498296336" duration="339000" />
+      <workItem from="1590498828921" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -486,7 +556,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="2020 3 2 16.29" />
     <MESSAGE value="2020 3 2 18.12" />
     <MESSAGE value="2020 3 15  8.12" />
     <MESSAGE value="2020 3 16 23.19" />
@@ -511,7 +580,8 @@
     <MESSAGE value="2020 5 5 00.18  383.t22中 Class.forName(st).getDeclaredConstructor(args[0].getClass()).newInstance(args[0]) 报ClassNotFoundException异常，未找到原因，先行提交" />
     <MESSAGE value="2020 5 5 23.53" />
     <MESSAGE value="2020 5 6 0.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 5 6 0.01" />
+    <MESSAGE value="2020 5 26 21.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020 5 26 21.06" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Notifications" timestamp="1583079503162">
@@ -538,66 +608,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="273" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1587037662738" />
-    <state x="520" y="0" width="802" height="824" key="CommitChangelistDialog2" timestamp="1588694486714">
+    <state x="520" y="0" width="802" height="824" key="CommitChangelistDialog2" timestamp="1590498464540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="0" width="802" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588694486714" />
+    <state x="520" y="0" width="802" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590498464540" />
     <state x="990" y="162" key="FileChooserDialogImpl" timestamp="1588607987152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588607987152" />
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1588694417715">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588694417715" />
-    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1588694417715">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588694417715" />
-    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1588694417715">
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588694417715" />
-    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1588694417715">
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588694417715" />
-    <state width="1493" height="200" key="GridCell.Tab.1.bottom" timestamp="1588654687327">
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.1.bottom" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588654687327" />
-    <state width="1493" height="200" key="GridCell.Tab.1.center" timestamp="1588654687327">
+    <state width="1493" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.1.center" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588654687327" />
-    <state width="1493" height="200" key="GridCell.Tab.1.left" timestamp="1588654687327">
+    <state width="1493" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.1.left" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588654687327" />
-    <state width="1493" height="200" key="GridCell.Tab.1.right" timestamp="1588654687327">
+    <state width="1493" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
+    <state width="1493" height="200" key="GridCell.Tab.1.right" timestamp="1590415291593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588654687327" />
+    <state width="1493" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590415291593" />
     <state x="676" y="55" key="Registry" timestamp="1584251328307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="676" y="55" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1584251328307" />
-    <state x="622" y="43" width="914" height="707" key="SettingsEditor" timestamp="1588607998762">
+    <state x="359" y="117" width="914" height="707" key="SettingsEditor" timestamp="1590498395189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="622" y="43" width="914" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588607998762" />
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1588694502445">
+    <state x="359" y="117" width="914" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590498395189" />
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2" timestamp="1590498565174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588694502445" />
+    <state x="628" y="175" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590498565174" />
     <state x="485" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588510359732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1588510359732" />
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588693992779">
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590498403862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1588693992779" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1590498403862" />
     <state x="499" y="176" key="extract.method.dialog" timestamp="1585652670226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -610,6 +680,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="446" y="234" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1583117168762" />
+    <state x="178" y="0" key="new project wizard" timestamp="1590394666072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590394666072" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588684261936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -908,8 +982,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/ATemp/LeetCode.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="111" />
+          <line>27</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookSystem.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/ATemp/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>

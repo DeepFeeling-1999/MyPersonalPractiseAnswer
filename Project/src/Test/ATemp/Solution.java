@@ -1,39 +1,18 @@
 package Test.ATemp;
 
+import SomeInstance.temp1;
+import SomeInstance.temp11;
 
-public class Solution {
-    /*private String str;
+public class Solution<T> {
 
-    private int num;
-
-
-    public Solution() {
-
+    public static void fun(Object o){
+        temp1 t2=new temp1(2);
     }
-
-    public Solution(String str, int num) {
-        this.str = str;
-        this.num = num;
-
-    }
-
-    public Solution(String str) {
-        this.str = str;
-
-    }
-
-    public static void main(String[] args) throws Exception {
-        Class[] classes = new Class[]{String.class, int.class};
-        Solution solution = Solution.class.getConstructor(classes).newInstance("hello1", 10);
-        System.out.println(solution.str); // hello1
-        Solution solution2 = solution.getClass().getDeclaredConstructor(String.class).newInstance("hello2");
-        System.out.println(solution2.str); // hello2
-
-        Solution solution3 = (Solution) Class.forName("Solution").getConstructor().newInstance(); // 无参也可用getConstructor()
-        System.out.println(solution3 instanceof Solution); // true
-
-    }*/
+   public static void main(String[]args){
+       temp1 t1=new temp1(1);
 
 
+       fun(t1);
 
+   }
 }

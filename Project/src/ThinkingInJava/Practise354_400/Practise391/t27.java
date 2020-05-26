@@ -16,7 +16,10 @@ public class t27 {
         //myList.add(new temp1());      //error
         myList.add(new temp11());
         myList.add(new temp111());
-        //Object o
+        Object o=myList.get(0);
+        temp1 t1=(temp1)o;
+
+        System.out.println(t1);
 
         List<? extends temp11> myEList = new ArrayList<>();
         //是temp11的某种子类型的list，故不可以向其添加，
