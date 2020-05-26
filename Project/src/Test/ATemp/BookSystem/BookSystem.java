@@ -80,7 +80,7 @@ public class BookSystem {
 public class BookSystem {
 
 
-    /**
+    /*
      * 获取数据库连接
      *
      * @return Connection对象
