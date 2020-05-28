@@ -21,11 +21,13 @@ class temp1 implements myInterface {
         System.out.println("temp1 fun2()");
     }
 }
-class temp11 extends temp1{
-    public void temp11Fun(){
+
+class temp11 extends temp1 {
+    public void temp11Fun() {
         System.out.println("temp11Fun()");
     }
 }
+
 class temp2 {
     public static <T extends temp1> void fun(T t) {
         t.fun1();
@@ -35,8 +37,8 @@ class temp2 {
 
 public class t20 {
     public static void main(String[] args) {
-        temp1 t1=new temp1();
-        temp11 t11=new temp11();
+        temp1 t1 = new temp1();
+        temp11 t11 = new temp11();
 
         temp2.fun(t1);
         temp2.fun(t11);

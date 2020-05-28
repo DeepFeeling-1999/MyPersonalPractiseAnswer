@@ -27,19 +27,16 @@ class DynamicProxyHandle implements InvocationHandler {
 
 
 public class t22 {
-    public static void fun(MyInterface i){
+    public static void fun(MyInterface i) {
         i.doSomething();
         i.somethingElse();
     }
-    public static void main(String[]args){
-        temp t=new temp();
+
+    public static void main(String[] args) {
+        temp t = new temp();
         fun(t);
 
-        MyInterface myProxy=(MyInterface) Proxy.newProxyInstance(
-                MyInterface.class.getClassLoader(),
-                new Class[]{MyInterface.class},
-                new DynamicProxyHandle(t)
-        );
+        MyInterface myProxy = (MyInterface) Proxy.newProxyInstance(MyInterface.class.getClassLoader(), new Class[]{MyInterface.class}, new DynamicProxyHandle(t));
 
         fun(myProxy);
     }

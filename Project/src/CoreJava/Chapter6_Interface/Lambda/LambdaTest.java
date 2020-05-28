@@ -12,10 +12,10 @@ import java.util.Date;
  * 如果lambda表达式只在某一个分支中有返回值，在另一些分支中不返回，是不合法的
  */
 public class LambdaTest {
-    public static void main(String[] args)
-    {
-        String[] planets = new String[]{ "Mercury", "Venus", "Earth", "Mars",
-                "Jupiter", "Saturn", "Uranus", "Neptune" };
+    public static void main(String[] args) {
+        String[] planets = new String[]{
+                "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"
+        };
 
         System.out.println(Arrays.toString(planets));
         System.out.println("Sorted in dictionary order:");
@@ -36,8 +36,7 @@ public class LambdaTest {
         System.out.println(Arrays.toString(planets));
 
         //可以自动推导出类型为ActionEvent
-        Timer t = new Timer(1000,  event->
-                System.out.println("The time is " + new Date()));
+        Timer t = new Timer(1000, event -> System.out.println("The time is " + new Date()));
         //调用监听器的计时器
         //要求实现actionPerformed接口，每到达指定的时间间隔就调用一次actionPerformed方法
         //用lambda表达式代替监听器

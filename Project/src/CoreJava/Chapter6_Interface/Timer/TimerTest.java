@@ -5,10 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Date;
 
-public class TimerTest
-{
-    public static void main(String[] args)
-    {
+public class TimerTest {
+    public static void main(String[] args) {
         ActionListener listener = new TimePrinter();
         //构造监听器
 
@@ -26,11 +24,9 @@ public class TimerTest
     }
 }
 
-class TimePrinter implements ActionListener
-{
+class TimePrinter implements ActionListener {
     //每到达指定的时间间隔就调用一次actionPerformed方法
-    public void actionPerformed(ActionEvent event)
-    {
+    public void actionPerformed(ActionEvent event) {
         System.out.println("At the tone, the time is " + new Date());
     }
 }

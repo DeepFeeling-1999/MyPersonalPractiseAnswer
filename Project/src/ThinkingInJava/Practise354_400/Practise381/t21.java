@@ -11,8 +11,8 @@ public class t21<T> {
     Class<?> kind;
     Map<String, Class<?>> myMap;
 
-    public t21(Class<?> kind,Map<String,Class<?>> myMap) {
-        this.myMap=myMap;
+    public t21(Class<?> kind, Map<String, Class<?>> myMap) {
+        this.myMap = myMap;
         this.kind = kind;
     }
 
@@ -27,8 +27,9 @@ public class t21<T> {
     public Object creatNew(String typeName) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         try {
             if (myMap.containsKey(typeName)) {
-                return myMap.get(typeName).getDeclaredConstructor().newInstance(); }
-        }catch(Exception e){
+                return myMap.get(typeName).getDeclaredConstructor().newInstance();
+            }
+        } catch (Exception e) {
             System.out.println("Exception!");
             e.printStackTrace();
         }

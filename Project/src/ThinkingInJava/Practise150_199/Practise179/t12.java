@@ -1,38 +1,44 @@
 package ThinkingInJava.Practise150_199.Practise179;
 
-interface i1{
+interface i1 {
     void fun1();
 }
-interface i2{
+
+interface i2 {
     void fun2();
 }
-interface i3{
+
+interface i3 {
     void fun3();
 }
-interface CanClimb{
+
+interface CanClimb {
     void CanClimb();
 }
-class superClass{
-    public void fun1(){
+
+class superClass {
+    public void fun1() {
         System.out.println("superClass fun1");
     }
 }
 
-class test extends superClass
-        implements i1,i2,i3,CanClimb {
-    public void fun2(){
+class test extends superClass implements i1, i2, i3, CanClimb {
+    public void fun2() {
         System.out.println("test fun2");
     }
-    public void fun3(){
+
+    public void fun3() {
         System.out.println("test fun3");
     }
-    public void CanClimb(){
+
+    public void CanClimb() {
         System.out.println("CanClimb fun");
     }
 }
+
 public class t12 {
-    public static void main(String args[]){
-        test t=new test();
+    public static void main(String args[]) {
+        test t = new test();
         t.CanClimb();
         t.fun1();
         t.fun2();

@@ -3,13 +3,11 @@ package CoreJava.Chapter10_JFrame.SizedFrame;
 import javax.swing.*;
 import java.awt.*;
 
-public class SizedFrameTest
-{
-    public static void main(String[]args)
-    {
+public class SizedFrameTest {
+    public static void main(String[] args) {
         //暂时看作启动一个swing程序的代码
-        EventQueue.invokeLater(()->{
-            JFrame frame=new SizedFrame();
+        EventQueue.invokeLater(() -> {
+            JFrame frame = new SizedFrame();
 
             //设置Title属性
             frame.setTitle("sizedFrame");
@@ -29,24 +27,22 @@ public class SizedFrameTest
     }
 }
 
-class SizedFrame extends JFrame
-{
-    public SizedFrame()
-    {
+class SizedFrame extends JFrame {
+    public SizedFrame() {
 
         //调用Toolkit类的静态方法getDefaultToolkit获得一个Toolkit对象
         //Toolkit类包含很多与本地系统打交道的方法
-        Toolkit kit=Toolkit.getDefaultToolkit();
-        Dimension screen=kit.getScreenSize();
+        Toolkit kit = Toolkit.getDefaultToolkit();
+        Dimension screen = kit.getScreenSize();
 
-        int screenHeight=screen.height;
-        int screenWidth=screen.width;
+        int screenHeight = screen.height;
+        int screenWidth = screen.width;
 
-        setSize(screenWidth/2,screenHeight/2);
+        setSize(screenWidth / 2, screenHeight / 2);
         setLocationByPlatform(true);
 
         //使用工具箱加载图片
-        Image im=new ImageIcon("src\\ideaResources\\JFrameTest.gif").getImage();
+        Image im = new ImageIcon("src\\ideaResources\\JFrameTest.gif").getImage();
 
         //设置框架的图标属性  icon 图标
         setIconImage(im);

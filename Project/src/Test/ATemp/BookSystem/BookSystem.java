@@ -1,76 +1,59 @@
 package Test.ATemp.BookSystem;
 
+import java.sql.*;
 
-import com.sun.jdi.connect.spi.Connection;
-
-import java.io.IOException;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-
+/**
+ * @author dell
+ * DRIVER_NAME---mysql驱动包名
+ * URL--- 数据库连接地址,注意是数据库名，不是用户名
+ * USER_NAME--- 用户名
+ */
 public class BookSystem {
-    /***
-     本文使用的数据库名称为user,账号密码均为root,
-     数据库含表userinfo,
-     该表有三个字段，id(INT),userinfo(VARCHAR),password(VARCHAR)
-     读者可根据数据库的实际情况对语句进行修改
-     ***/
+    private static final String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "jdbc:mysql://localhost:3306/bookmanagement";
+    private static final String USER_NAME = "root";
+    private static final String PASSWORD = "337+d7+d";
+
     public static void main(String[] args) {
-        ResultSet rs = null;
-        Connection connection = null;
-        PreparedStatement statement = null;
+        Connection myConnection = null;
+
         try {
-            //1,加载驱动
-            Class.forName("com.mysql.jdbc.Driver");
-            //2.创建连接
-            //此处按照实际的数据库名称和账号密码进行修改
-            //格式为jdbc:mysql://127.0.0.1:3306/数据库名称?useSSL=true&characterEncoding=utf-8&user=账号名&password=密码
-            connection = (Connection) DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/user?useSSL=true&characterEncoding=utf-8&user=root&password=root");
-            System.out.println("创建连接成功");
-            //3.写sql
-            //根据数据库实际的表名写SQL语句
-            String sql="select * from userinfo";
-            //4.得到statement对象执行sql
-            statement = ((java.sql.Connection) connection).prepareStatement(sql);
-            //5.得到结果集
-            rs = statement.executeQuery();
-            //6.处理结果集
-            while(rs.next()){
-                System.out.println(rs.getInt(1));
-                System.out.println(rs.getString(2));
-                System.out.println(rs.getString(3));
-            }
+            //加载mysql的驱动类
+            Class.forName(DRIVER_NAME);
+            //获取数据库连接
+            myConnection = DriverManager.getConnection(URL, USER_NAME, PASSWORD);
 
-        } catch (ClassNotFoundException e) {
+            int choice;
+            while ((choice = BookFunction.menu()) != 7) {
+                switch (choice) {
+                    case 1: BookFunction.addBook(myConnection);
+                        break;
+                    case 2: BookFunction.borrowBook(myConnection);
+                        break;
+                    case 3: BookFunction.deleteBook(myConnection);
+                        break;
+                    case 4: BookFunction.seekBook(myConnection);
+                        break;
+                    case 5: BookFunction.modifyBook(myConnection);
+                        break;
+                    case 6: BookFunction.showBook(myConnection);
+                        break;
+
+                    default: System.out.println("请输入1-7！");
+                }
+            }
+            System.out.println("拜拜!");
+
+        } catch (Exception e) {
             e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }finally {
-            //7.关闭
-            if(rs!=null){
+        } finally {
+            if (myConnection != null) {
                 try {
-                    rs.close();
+                    myConnection.close();
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
             }
-            if(statement!=null) {
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
-            if(connection!=null){
-                try {
-                    connection.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            System.out.println("关闭成功");
         }
     }
 }
@@ -84,18 +67,21 @@ public class BookSystem {
      * 获取数据库连接
      *
      * @return Connection对象
-     *//*
+     */
+/*
     public Connection getConnection() {
         Connection conn = null;   //数据库连接
         try {
             Class.forName("com.mysql.jdbc.Driver"); //加载数据库驱动，注册到驱动管理器
 
-            /*数据库链接地址*//*
+            /*数据库链接地址*/
+/*
             String url = "jdbc:mysql://localhost:3306/company?useSSL=false";
             //String url = "jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=UTF-8";
             String username = "root";
             String password = "337+d7+d";
-            /*创建Connection链接*//*
+            /*创建Connection链接*/
+/*
             conn = DriverManager.getConnection(url, username, password);
 
         } catch (ClassNotFoundException e) {
@@ -128,7 +114,8 @@ public class BookSystem {
      * 主函数 调用存储过程(测试使用)
      *
      * @param args
-     *//*
+     */
+/*
     public static void main(String[] args) {
 
         BookSystem B = new BookSystem();

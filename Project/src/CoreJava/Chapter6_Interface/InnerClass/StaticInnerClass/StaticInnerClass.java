@@ -70,7 +70,8 @@ class ArrayAlg {
             if (max < v) {
                 max = v;
             }
-        } return new Pair(min, max);
+        }
+        return new Pair(min, max);
     }
 }
 

@@ -1,18 +1,15 @@
 package CoreJava.Chapter9_Collection.Map;
 
-public class Employee
-{
+public class Employee {
     private String name;
     private double salary;
 
-    public Employee(String name)
-    {
+    public Employee(String name) {
         this.name = name;
         salary = 0;
     }
 
-    public String toString()
-    {
+    public String toString() {
         return "[name=" + name + ", salary=" + salary + "]";
     }
 }

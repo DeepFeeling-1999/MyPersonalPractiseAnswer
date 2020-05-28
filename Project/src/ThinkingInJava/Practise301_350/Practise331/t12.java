@@ -35,7 +35,9 @@ class tempCounter extends HashMap<Class<?>, Integer> {
         Class<?> type = obj.getClass();
 
         //看参数是不是它的子类
-        if (!baseType.isAssignableFrom(type)) { throw new RuntimeException(obj + " incorrect type"); }
+        if (!baseType.isAssignableFrom(type)) {
+            throw new RuntimeException(obj + " incorrect type");
+        }
         countClass(type);
     }
 
@@ -44,7 +46,9 @@ class tempCounter extends HashMap<Class<?>, Integer> {
         put(c, quantity == null ? 1 : quantity + 1);
 
         Class<?> superClass = c.getSuperclass();
-        if (superClass != null && baseType.isAssignableFrom(superClass)) { countClass(superClass); }
+        if (superClass != null && baseType.isAssignableFrom(superClass)) {
+            countClass(superClass);
+        }
     }
 }
 

@@ -4,11 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class NoHelloWorld {
-    public static void main(String[]args)
-    {
-        EventQueue.invokeLater(()->
-        {
-            JFrame frame=new testFrame();
+    public static void main(String[] args) {
+        EventQueue.invokeLater(() -> {
+            JFrame frame = new testFrame();
             frame.setTitle("hello!");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
@@ -16,10 +14,8 @@ public class NoHelloWorld {
     }
 }
 
-class testFrame extends JFrame
-{
-    public testFrame()
-    {
+class testFrame extends JFrame {
+    public testFrame() {
         //增加这个组件
         add(new testFrameComponent());
 
@@ -33,8 +29,7 @@ class testFrame extends JFrame
  * 绘制一个组件，需要定义一个扩展JComponent的类
  * 并覆盖其中的paintComponent
  */
-class testFrameComponent extends JComponent
-{
+class testFrameComponent extends JComponent {
     public static final int DEFAULT_WIDTH = 900;
     public static final int DEFAULT_HEIGHT = 600;
 
@@ -43,26 +38,25 @@ class testFrameComponent extends JComponent
 
     /**
      * 不需要手动调用，需要重新绘图的时候会自动调用
+     *
      * @param g
      */
     @Override
-    public void paintComponent(Graphics g)
-    {
+    public void paintComponent(Graphics g) {
         /**显示文本
          * 位置，从左到右，从上到下的像素位置，
          * 此例中，文本的基线基于100
          */
-        g.drawString("Not a hhh",MESSAGE_X,MESSAGE_Y);
+        g.drawString("Not a hhh", MESSAGE_X, MESSAGE_Y);
     }
 
     /**
      * 返回一个有首选宽度和高度的Dimension类对象
-     *
+     * <p>
      * 暂时认为是默认的大小，（首选的大小）
      */
     @Override
-    public Dimension getPreferredSize()
-    {
-        return new Dimension(DEFAULT_WIDTH,DEFAULT_HEIGHT);
+    public Dimension getPreferredSize() {
+        return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT);
     }
 }

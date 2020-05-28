@@ -28,7 +28,9 @@ public class t5<T> {
 
     public T pop() {
         T result = top.item;
-        if (!top.end()) { top = top.next; }
+        if (!top.end()) {
+            top = top.next;
+        }
 
         return result;
     }

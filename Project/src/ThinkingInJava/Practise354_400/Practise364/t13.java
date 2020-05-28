@@ -3,7 +3,6 @@ package ThinkingInJava.Practise354_400.Practise364;
 import java.util.*;
 
 
-
 class temp1 {
     int num;
 
@@ -22,7 +21,7 @@ class temp1Genetator implements myGenerator<temp1> {
 
     @Override
     public String toString() {
-        return "temp11 + " ;
+        return "temp11 + ";
     }
 
     @Override
@@ -48,13 +47,13 @@ public class t13 {
     }
 
     public static void main(String[] args) {
-        Collection<temp1> co = fill(new LinkedList<temp1>(),new temp1Genetator(),3 );
-        for(temp1 t1:co){
+        Collection<temp1> co = fill(new LinkedList<temp1>(), new temp1Genetator(), 3);
+        for (temp1 t1 : co) {
             System.out.println(t1);
         }
 
-        Set<temp1> S1=fill(new HashSet<>(),new temp1Genetator(),3);
-        for(temp1 t1:S1){
+        Set<temp1> S1 = fill(new HashSet<>(), new temp1Genetator(), 3);
+        for (temp1 t1 : S1) {
             System.out.println(t1);
         }
     }

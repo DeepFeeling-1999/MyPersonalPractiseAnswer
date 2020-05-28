@@ -5,7 +5,7 @@ package CoreJava.Chapter6_Interface.ComparableSort;
  * Comparable 是一个对象本身就已经支持自比较所需要实现的接口
  */
 
-public interface Comparable<Employee>{
+public interface Comparable<Employee> {
     int compareTo(Employee other);
 }
 

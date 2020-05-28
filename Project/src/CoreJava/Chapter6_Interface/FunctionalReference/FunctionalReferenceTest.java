@@ -9,9 +9,9 @@ import java.util.Date;
  * 只有一个抽象方法的接口，可以提供一个lambda表达式。这种接口称为函数式接口
  */
 public class FunctionalReferenceTest {
-    public static void main(String[]args){
-        Timer t=new Timer(1000,(ActionEvent event)->{
-            System.out.println("The time is "+new Date());
+    public static void main(String[] args) {
+        Timer t = new Timer(1000, (ActionEvent event) -> {
+            System.out.println("The time is " + new Date());
         });
 
         t.start();      //启动计时器

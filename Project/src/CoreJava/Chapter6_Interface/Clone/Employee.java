@@ -8,8 +8,7 @@ import java.util.GregorianCalendar;
  * 这个方法是从Object继承的
  * 如果对象请求一个克隆，而没有实现这个接口，就会生成一个受查异常
  */
-public class Employee implements Cloneable
-{
+public class Employee implements Cloneable {
     private String name;
     private double salary;
     private Date hireDay;

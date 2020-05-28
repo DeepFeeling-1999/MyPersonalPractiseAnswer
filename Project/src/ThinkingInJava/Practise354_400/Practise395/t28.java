@@ -17,7 +17,7 @@ public class t28 {
         }
     }
 
-    public <T> void fun1(myGeneric1<? super T> t,T t1) {
+    public <T> void fun1(myGeneric1<? super T> t, T t1) {
         t.fun1(t1);
     }
 

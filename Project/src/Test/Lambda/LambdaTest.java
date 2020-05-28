@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.stream.Stream;
 
 public class LambdaTest {
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
        /* String []datas = new String[] {"peng","zhao","li"};
         //Comparator<String> comp = (v1, v2) -> Integer.compare(v1.length(), v2.length());
@@ -29,6 +29,6 @@ public class LambdaTest {
         //System.out.println( () -> {} ); //错误! 目标类型不明
         //必须先转型：
 
-        System.out.println( (Runnable)() -> {} ); // 正确
+        System.out.println((Runnable) () -> {}); // 正确
     }
 }

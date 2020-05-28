@@ -3,15 +3,13 @@ package CoreJava.Chapter5_Extends.CopyOf;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class CopyOfTest
-{
-    public static void main(String[] args)
-    {
-        int[] a = { 1, 2, 3 };
+public class CopyOfTest {
+    public static void main(String[] args) {
+        int[] a = {1, 2, 3};
         a = (int[]) goodCopyOf(a, 10);
         System.out.println(Arrays.toString(a));
 
-        String[] b = { "Tom", "Dick", "Harry" };
+        String[] b = {"Tom", "Dick", "Harry"};
         b = (String[]) goodCopyOf(b, 10);
         System.out.println(Arrays.toString(b));
 
@@ -34,7 +32,9 @@ public class CopyOfTest
     {
         Class cl = a.getClass();
         if (!cl.isArray())  //如果不是数组
+        {
             return null;
+        }
 
         Class componentType = cl.getComponentType();
         //getComponentType返回数组元素对应的class对象

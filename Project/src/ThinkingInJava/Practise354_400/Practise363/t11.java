@@ -2,10 +2,11 @@ package ThinkingInJava.Practise354_400.Practise363;
 
 import java.util.*;
 
-class temp0{
+class temp0 {
 
 }
-class temp1 extends temp0{
+
+class temp1 extends temp0 {
     private int num;
 
     public temp1(int num) {
@@ -33,11 +34,11 @@ class temp11 extends temp1 {
 }
 
 public class t11 {
-    public static Map<temp1, List<?super temp1>> myMap = new HashMap<>();
+    public static Map<temp1, List<? super temp1>> myMap = new HashMap<>();
 
     public static void main(String[] args) {
-        temp1 t1=new temp1(1);
-        myMap.put(t1, new ArrayList<>(Arrays.asList(new temp11(1),new temp11(11))));
+        temp1 t1 = new temp1(1);
+        myMap.put(t1, new ArrayList<>(Arrays.asList(new temp11(1), new temp11(11))));
 
 
         System.out.println(myMap.get(t1));

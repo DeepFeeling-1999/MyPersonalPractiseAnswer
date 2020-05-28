@@ -6,22 +6,26 @@ public class EmployeeSubclass extends PersonAbstract {
     private double salary;
     private LocalDate hireDay;
 
-    public EmployeeSubclass(String name, double salary, int year, int mounth, int day){
+    public EmployeeSubclass(String name, double salary, int year, int mounth, int day) {
         super(name);
-        this.salary=salary;
-        this.hireDay=LocalDate.of(year,mounth,day);
+        this.salary = salary;
+        this.hireDay = LocalDate.of(year, mounth, day);
     }
-    public double getSalary(){
+
+    public double getSalary() {
         return salary;
     }
-    public LocalDate getHireDay(){
+
+    public LocalDate getHireDay() {
         return hireDay;
     }
-    public String getDescription(){
-        return String.format("am employee with a salary of $%.2f",salary);
+
+    public String getDescription() {
+        return String.format("am employee with a salary of $%.2f", salary);
     }
-    public void raiseSalary(double byPercent){
-        double raise =salary*byPercent/100;
-        salary+=raise;
+
+    public void raiseSalary(double byPercent) {
+        double raise = salary * byPercent / 100;
+        salary += raise;
     }
 }

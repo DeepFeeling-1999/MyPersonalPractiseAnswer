@@ -8,12 +8,11 @@ import java.awt.*;
  * 线程将鼠标点击和按键控制转移到用户接口组件
  */
 public class SimpleFrameTest {
-    public static void main(String[]args)
-    {
+    public static void main(String[] args) {
 
         //暂时看作启动一个swing程序的代码
-        EventQueue.invokeLater(()->{
-            SimpleFrame test=new SimpleFrame();
+        EventQueue.invokeLater(() -> {
+            SimpleFrame test = new SimpleFrame();
 
             //定义一个用户关闭这个框架时的响应动作，此处是默认操作
             test.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -29,18 +28,17 @@ public class SimpleFrameTest {
         });
     }
 }
-class SimpleFrame extends JFrame
-{
-    private static final int DEFAULT_WIDTH=300;
-    private static final int DEFAULT_HEIGHT=200;
 
-    public SimpleFrame()
-    {
+class SimpleFrame extends JFrame {
+    private static final int DEFAULT_WIDTH = 300;
+    private static final int DEFAULT_HEIGHT = 200;
+
+    public SimpleFrame() {
 
         //setLocation(1000,100);
 
         //设置位置和大小，Bounds---边界，范围
-        setBounds(500,100,300,300);
+        setBounds(500, 100, 300, 300);
         //setSize(DEFAULT_WIDTH,DEFAULT_HEIGHT);
     }
 }

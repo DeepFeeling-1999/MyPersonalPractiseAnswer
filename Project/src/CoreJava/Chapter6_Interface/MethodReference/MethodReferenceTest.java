@@ -13,9 +13,9 @@ import java.util.Date;
  * 第三种第一个参数会成为方法的目标
  * 如 String::compareToIgnoreCase等价于(x,y)->x.compareToIgnoreCase(y)
  */
-public class MethodReferenceTest{
-    public static void main(String[] args){
-        Timer t=new Timer(1000,Test::Print);
+public class MethodReferenceTest {
+    public static void main(String[] args) {
+        Timer t = new Timer(1000, Test::Print);
 
         t.start();      //启动计时器
         JOptionPane.showMessageDialog(null, "Quit program?");
@@ -25,8 +25,9 @@ public class MethodReferenceTest{
         System.exit(0);         //需要加上这句，不然会继续运行,直到程序结束才停止
     }
 }
-class Test{
-  public static void Print(ActionEvent action){
-        System.out.println("time is "+new Date());
+
+class Test {
+    public static void Print(ActionEvent action) {
+        System.out.println("time is " + new Date());
     }
 }

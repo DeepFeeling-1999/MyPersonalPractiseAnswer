@@ -1,9 +1,9 @@
 package CoreJava.Chapter6_Interface.ComparableSort;
+
 import java.util.Arrays;
 
 public class EmployeeSortTest {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Employee[] staff = new Employee[3];
 
         staff[0] = new Employee("Harry Hacker", 35000);
@@ -20,30 +20,33 @@ public class EmployeeSortTest {
 /**
  * 关键字implement表示实现某个接口
  */
-class Employee implements Comparable<Employee>{
+class Employee implements Comparable<Employee> {
     private String name;
     private double salary;
 
-    public Employee(String name,double salary){
-        this.name=name;
-        this.salary=salary;
+    public Employee(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
     }
 
     public String getName() {
-        return name; }
+        return name;
+    }
+
     public double getSalary() {
         return salary;
     }
+
     public void raiseSalary(double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;
     }
 
     /**
-     *  Comparable接口的compareTo方法 ，是在集合内部定义的方法实现的排序，
-     *  实现接口时，必须把接口声明为public
+     * Comparable接口的compareTo方法 ，是在集合内部定义的方法实现的排序，
+     * 实现接口时，必须把接口声明为public
      */
     public int compareTo(Employee other) {
-        return Double.compare(salary,other.salary);
+        return Double.compare(salary, other.salary);
     }
 }

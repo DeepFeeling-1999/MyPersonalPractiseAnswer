@@ -1,8 +1,8 @@
 package Test.getClass_class;
+
 import java.util.Scanner;
 
-abstract class Animal {
-}
+abstract class Animal {}
 
 public class Dog extends Animal {
     public static void main(String[] args) throws ClassNotFoundException {

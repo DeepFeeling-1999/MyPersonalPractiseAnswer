@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-class temp1{}
-class temp11 extends temp1{}
-class temp111 extends temp11{}
+class temp1 {}
+
+class temp11 extends temp1 {}
+
+class temp111 extends temp11 {}
 
 public class t27 {
     public static void main(String[] args) {
@@ -16,8 +18,8 @@ public class t27 {
         //myList.add(new temp1());      //error
         myList.add(new temp11());
         myList.add(new temp111());
-        Object o=myList.get(0);
-        temp1 t1=(temp1)o;
+        Object o = myList.get(0);
+        temp1 t1 = (temp1) o;
 
         System.out.println(t1);
 

@@ -5,25 +5,23 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ButtonFrameTest extends JFrame
-{
+public class ButtonFrameTest extends JFrame {
     //面板
     private JPanel buttonPanel;
 
-    public static final int DEFAULT_WIDTH=300;
-    public static final int DEFAULT_HEIGHT=300;
+    public static final int DEFAULT_WIDTH = 300;
+    public static final int DEFAULT_HEIGHT = 300;
 
-    public ButtonFrameTest()
-    {
-        setSize(DEFAULT_WIDTH,DEFAULT_HEIGHT);
+    public ButtonFrameTest() {
+        setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
 
         //创建按钮
-        JButton yellowButton=new JButton("Yellow");
-        JButton blueButton=new JButton("Blue");
-        JButton redButton=new JButton("Red");
+        JButton yellowButton = new JButton("Yellow");
+        JButton blueButton = new JButton("Blue");
+        JButton redButton = new JButton("Red");
 
         //创建面板
-        buttonPanel=new JPanel();
+        buttonPanel = new JPanel();
 
         //按钮添加到面板中
         buttonPanel.add(yellowButton);
@@ -34,9 +32,9 @@ public class ButtonFrameTest extends JFrame
         add(buttonPanel);
 
         //创建按钮事件
-        ColorAction yellowAction=new ColorAction(Color.YELLOW);
-        ColorAction blueAction=new ColorAction(Color.BLUE);
-        ColorAction redAction=new ColorAction(Color.RED);
+        ColorAction yellowAction = new ColorAction(Color.YELLOW);
+        ColorAction blueAction = new ColorAction(Color.BLUE);
+        ColorAction redAction = new ColorAction(Color.RED);
 
         //添加事件监听器
         yellowButton.addActionListener(yellowAction);
@@ -44,18 +42,15 @@ public class ButtonFrameTest extends JFrame
         redButton.addActionListener(redAction);
     }
 
-    private class ColorAction implements ActionListener
-    {
+    private class ColorAction implements ActionListener {
         private Color backgroundColor;
 
-        public ColorAction(Color c)
-        {
-            backgroundColor=c;
+        public ColorAction(Color c) {
+            backgroundColor = c;
         }
 
         //每当鼠标点击的时候就会自动调用这个方法
-        public void actionPerformed(ActionEvent event)
-        {
+        public void actionPerformed(ActionEvent event) {
             //需要设置面板的背景属性，所以将这个类设为内部类
             buttonPanel.setBackground(backgroundColor);
         }

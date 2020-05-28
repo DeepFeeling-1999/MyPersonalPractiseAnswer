@@ -8,49 +8,60 @@ public class Employee {
     private double salary;
     private LocalDate hireDay;
 
-    public Employee(String name,double salary,int year,int mouth,int day){
-        this.name=name;
-        this.salary=salary;
-        hireDay=LocalDate.of(year,mouth,day);
+    public Employee(String name, double salary, int year, int mouth, int day) {
+        this.name = name;
+        this.salary = salary;
+        hireDay = LocalDate.of(year, mouth, day);
     }
 
     public String getName() {
         return name;
     }
-    public double getSalary(){
+
+    public double getSalary() {
         return salary;
     }
-    public LocalDate getHireDay(){
+
+    public LocalDate getHireDay() {
         return hireDay;
     }
-    public void raiseSalary(double byPercent){
-        double raise=salary*byPercent/100;
-        salary+=raise;
+
+    public void raiseSalary(double byPercent) {
+        double raise = salary * byPercent / 100;
+        salary += raise;
     }
 
     @Override
-    public boolean equals(Object otherObject){
-        if(this==otherObject)       //如果引用同一个对象
+    public boolean equals(Object otherObject) {
+        if (this == otherObject)       //如果引用同一个对象
+        {
             return true;
-        if(otherObject==null)       //如果为空
+        }
+        if (otherObject == null)       //如果为空
+        {
             return false;
-        if(getClass()!=otherObject.getClass())  //子类拥有自己相等的概念，则用getClass检测是否是同一个类
+        }
+        if (getClass() != otherObject.getClass())  //子类拥有自己相等的概念，则用getClass检测是否是同一个类
+        {
             return false;                       //如果由父类决定是否是同一个类的概念则用
-                                                // instanceof 来检测两个参数是否可以转换
+        }
+        // instanceof 来检测两个参数是否可以转换
 
-        Employee other=(Employee)otherObject;   //现在可以确定实参是一个非空同类对象
+        Employee other = (Employee) otherObject;   //现在可以确定实参是一个非空同类对象
 
-        return Objects.equals(name,other.name)  //测试域，考虑到name和hireDay可能为空
-                &&salary==other.salary          // 调用的是Objects.equals
-                &&Objects.equals(hireDay,other.hireDay);
+        return Objects.equals(name, other.name)  //测试域，考虑到name和hireDay可能为空
+                && salary == other.salary          // 调用的是Objects.equals
+                && Objects.equals(hireDay, other.hireDay);
     }
+
     @Override
     public int hashCode() {
         //Objects中的方法
-        return Objects.hash(hireDay+name+salary);
+        return Objects.hash(hireDay + name + salary);
     }
+
     @Override
     public String toString() {
-        return getClass().getName()+"[name="+name+", salary="+salary+",hireDay="+hireDay+"]";
+        return getClass().getName() + "[name=" + name + ", salary=" + salary + ",hireDay=" + hireDay + "]";
     }
 }

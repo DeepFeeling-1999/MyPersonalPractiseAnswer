@@ -47,7 +47,7 @@ public class t18 {
         }
 
         List<temp2> l2 = t13.fill(new LinkedList<temp2>(), temp2.generator, 3);
-        for(temp2 t2:l2){
+        for (temp2 t2 : l2) {
             System.out.println(t2);
         }
     }
