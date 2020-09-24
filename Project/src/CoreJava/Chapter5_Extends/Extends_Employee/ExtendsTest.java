@@ -2,7 +2,7 @@ package CoreJava.Chapter5_Extends.Extends_Employee;
 
 public class ExtendsTest {
     public static void main(String[] args) {
-        Manager boss = new Manager("aaa", 33333, 1999, 12, 24);
+        Manager boss = new Manager("A", 33333, 1999, 12, 24);
         boss.setBonus(5000);
         System.out.println(boss.getName());
         Employee[] staff = new Employee[3];

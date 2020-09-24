@@ -19,9 +19,11 @@ public class Employee implements Cloneable {
         hireDay = new Date();
     }
 
+
     /**
      * 如果对象没有实现Cloneable接口则会抛出CloneNotSupportedException异常
      */
+    @Override
     public Employee clone() throws CloneNotSupportedException {
         // 调用 Object.clone()
         Employee cloned = (Employee) super.clone();
@@ -44,6 +46,7 @@ public class Employee implements Cloneable {
         salary += raise;
     }
 
+    @Override
     public String toString() {
         return "Employee[name=" + name + ",salary=" + salary + ",hireDay=" + hireDay + "]";
     }

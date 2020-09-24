@@ -8,6 +8,7 @@ public class StudentSubclass extends PersonAbstract {
         this.major = major;
     }
 
+    @Override
     public String getDescription() {
         return "a student majoing in " + major;
     }

@@ -4,7 +4,7 @@ import CoreJava.Chapter8_Generic.Pair.Pair;
 
 public class PairTest1 {
     public static void main(String[] args) {
-        String[] words = {"Mary", "had", "a", "little", "lamb"};
+        String[] words = {"Mary", "had", "A", "little", "lamb"};
 
         //使用了自动类型推断来代替
         //Pair<String> mm =ArrayAlg.<String>minmax(words);

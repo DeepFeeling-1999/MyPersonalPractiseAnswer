@@ -8,7 +8,7 @@ public class Employee {
     private LocalDate hireDay;
 
     public Employee() {
-        this.name = "aaa";
+        this.name = "A";
         this.hireDay = LocalDate.of(111, 1, 1);
         this.salary = 333;
     }

@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class SortComparatorTest {
     public static void main(String[] args) {
-        String[] friends = {"aaa", "bb", "ccc"};        //数组
+        String[] friends = {"A", "bb", "ccc"};        //数组
 
         Arrays.sort(friends, new LengthComparator());
         //使用一个比较器

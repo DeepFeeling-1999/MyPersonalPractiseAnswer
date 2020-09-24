@@ -1,30 +1,27 @@
 package Test.ATemp;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class LeetCode {
 
 
-    public static int lengthOfLongestSubstring(String s) {
-        int n = s.length(), ans = 0;
-        Map<Character, Integer> map = new HashMap<>();
-        for (int end = 0, start = 0; end < n; end++) {
-            char alpha = s.charAt(end);
-            if (map.containsKey(alpha)) {
-                //start=Math.max(myHash.get(tempChar)+1,start);
-                start = map.get(alpha) + 1;
+    public static int longestConsecutive(int[] nums) {
+        int ans=0;
+        Arrays.sort(nums);
+        for(int j=0,i=1;i<nums.length;i++){
+            if(nums[i]-nums[j]==i-j){
+                ans=i-j+1;
+            }else{
+                j++;
             }
-            ans = Math.max(ans, end - start + 1);
-            map.put(s.charAt(end), end);
         }
         return ans;
     }
 
 
     public static void main(String[] args) {
-        String s = "abba";
-
-        lengthOfLongestSubstring(s);
+        
     }
 }

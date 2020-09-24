@@ -20,7 +20,7 @@ public class TreeSetTest {
         //TreeSet 树集实现了 SortedSet接口
         SortedSet<Item> parts = new TreeSet<>();
 
-        parts.add(new Item("aaa", 111));
+        parts.add(new Item("A", 111));
         parts.add(new Item("bbb", 222));
         parts.add(new Item("ccc", 333));
         parts.add(new Item("ddd", 444));

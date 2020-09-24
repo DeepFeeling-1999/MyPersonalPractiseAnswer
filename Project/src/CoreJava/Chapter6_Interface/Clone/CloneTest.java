@@ -6,7 +6,7 @@ public class CloneTest {
             Employee original = new Employee("John Q. Public", 1111);
             original.setHireDay(1111, 11, 1);
 
-            Employee copy = original.clone();   //拷贝
+            Employee copy = original.clone();
             copy.raiseSalary(100);
             copy.setHireDay(2222, 2, 22);
 

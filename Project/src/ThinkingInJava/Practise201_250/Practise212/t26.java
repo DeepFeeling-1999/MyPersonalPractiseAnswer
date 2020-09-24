@@ -11,7 +11,7 @@ class Temp1 {
 class Temp2 {
     class Temp22 extends Temp1.Temp11 {
         public Temp22(Temp1 T1) {
-            T1.super("aaa");
+            T1.super("A");
         }
     }
 }

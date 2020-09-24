@@ -51,7 +51,7 @@ class temp22 extends temp11 {
 
     @Override
     public void tFun() throws temp1 {
-        System.out.println("aaa");
+        System.out.println("A");
     }
 }
 

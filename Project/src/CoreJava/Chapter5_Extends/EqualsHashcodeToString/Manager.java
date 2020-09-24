@@ -8,6 +8,7 @@ public class Manager extends Employee {
         bonus = 0;
     }
 
+    @Override
     public double getSalary() {
         double baseSalary = super.getSalary();
         return baseSalary + bonus;
@@ -33,6 +34,7 @@ public class Manager extends Employee {
         return super.hashCode() + 17 * new Double(bonus).hashCode();
     }
 
+    @Override
     public String toString() {
         final String s = super.toString() + ("[bonus=" + bonus + "]");
         return s;

@@ -19,11 +19,11 @@ class Tuple {
 
 public class t15 {
     static TwoTuple<String, Integer> f() {
-        return Tuple.tuple("aaa", 666);
+        return Tuple.tuple("A", 666);
     }
 
     static TwoTuple f2() {
-        return Tuple.tuple("aaa", 666);
+        return Tuple.tuple("A", 666);
     }
 
     public static void main(String[] args) {

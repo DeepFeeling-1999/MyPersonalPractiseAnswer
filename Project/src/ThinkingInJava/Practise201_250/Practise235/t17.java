@@ -48,7 +48,7 @@ public class t17 {
     public static Map<temp1, temp2> map = new HashMap<>();
 
     public static void main(String[] args) {
-        map.put(new temp1(0), new temp2("aaa"));
+        map.put(new temp1(0), new temp2("A"));
         map.put(new temp1(1), new temp2("bbb"));
         map.put(new temp1(2), new temp2("ccc"));
 

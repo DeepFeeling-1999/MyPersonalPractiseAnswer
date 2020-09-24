@@ -73,7 +73,7 @@ public class t22<T> {
 
             System.out.println("****************");
 
-            temp11 t11 = (temp11) t222.fun2("ThinkingInJava.Practise354_400.Practise383.temp11", "aaa", 666);
+            temp11 t11 = (temp11) t222.fun2("ThinkingInJava.Practise354_400.Practise383.temp11", "A", 666);
             System.out.println(t11);
         } catch (InstantiationException e) {
             e.printStackTrace();

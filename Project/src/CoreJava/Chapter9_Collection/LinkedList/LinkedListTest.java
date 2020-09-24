@@ -24,7 +24,7 @@ public class LinkedListTest {
         a.add("c");
         a.add("c");
         a.add("d");
-        a.add("a");
+        a.add("A");
         a.add("c");
         a.add("c");
 

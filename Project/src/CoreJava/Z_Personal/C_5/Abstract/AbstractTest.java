@@ -18,6 +18,6 @@ abstract class abstractT {
 
 class son extends abstractT {
     public String getName() {
-        return "aaa";
+        return "A";
     }
 }

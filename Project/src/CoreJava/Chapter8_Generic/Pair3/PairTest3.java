@@ -55,7 +55,7 @@ public class PairTest3 {
                 max = a[i];
             }
         }
-        System.out.println(result.getFirst() + " aaa " + result.getSecond() + " aaaaaaa.");
+        System.out.println(result.getFirst() + "A " + result.getSecond() + " aaaaaaa.");
         result.setFirst(min);
         result.setSecond(max);
     }

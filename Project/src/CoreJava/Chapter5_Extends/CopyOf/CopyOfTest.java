@@ -31,8 +31,8 @@ public class CopyOfTest {
     //重点是通过反射获取要复制的对象信息
     {
         Class cl = a.getClass();
-        if (!cl.isArray())  //如果不是数组
-        {
+        //如果不是数组
+        if (!cl.isArray()) {
             return null;
         }
 

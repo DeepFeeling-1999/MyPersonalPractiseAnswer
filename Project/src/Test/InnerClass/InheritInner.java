@@ -23,7 +23,7 @@ class Temp2 {
     public class Temp22 extends Temp1.Temp11 {
         //传递必要的外围类引用
         public Temp22(Temp1 t1) {
-            t1.super("aaa");
+            t1.super("A");
         }
     }
 }

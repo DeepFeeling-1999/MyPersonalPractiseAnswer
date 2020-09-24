@@ -50,7 +50,7 @@ public class MapTest {
         m1.put(new temp1(0), new temp2("ccc"));
         m1.put(new temp1(8), new temp2("bbb"));
         m1.put(new temp1(5), new temp2("fff"));
-        m1.put(new temp1(9), new temp2("aaa"));
+        m1.put(new temp1(9), new temp2("A"));
 
         Iterator<temp1> I = m1.keySet().iterator();
 

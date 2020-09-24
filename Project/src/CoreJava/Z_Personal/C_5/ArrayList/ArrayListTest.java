@@ -41,7 +41,7 @@ class ArrayTest {
     private String name;
 
     public ArrayTest() {
-        name = "aaa";
+        name = "A";
     }
 
     public ArrayTest(String para) {

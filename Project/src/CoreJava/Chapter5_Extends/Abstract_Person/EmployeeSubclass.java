@@ -2,6 +2,9 @@ package CoreJava.Chapter5_Extends.Abstract_Person;
 
 import java.time.LocalDate;
 
+/**
+ * @author dell
+ */
 public class EmployeeSubclass extends PersonAbstract {
     private double salary;
     private LocalDate hireDay;
@@ -20,6 +23,7 @@ public class EmployeeSubclass extends PersonAbstract {
         return hireDay;
     }
 
+    @Override
     public String getDescription() {
         return String.format("am employee with a salary of $%.2f", salary);
     }

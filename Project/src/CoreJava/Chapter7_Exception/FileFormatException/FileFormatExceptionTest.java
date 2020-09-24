@@ -18,9 +18,11 @@ public class FileFormatExceptionTest {
          * 若对这些异常感兴趣，可以调用addSuppressed方法增加到原来的异常，
          * 然后用getSuppressed方法得到从close方法抛出并被抑制的异常列表
          */
-        try (Scanner temp_in = new Scanner((new FileInputStream("src\\ideaResources//test.txt")), StandardCharsets.UTF_8); PrintWriter temp_out = new PrintWriter("src/ideaResources\\out_test.txt")) {
+        try (Scanner temp_in = new Scanner((new FileInputStream("src\\ideaResources//test.txt")),
+                                           String.valueOf(StandardCharsets.UTF_8)
+        ); PrintWriter temp_out = new PrintWriter("src/ideaResources\\out_test.txt")) {
             if (i == 1) {
-                throw new resourcesTest("aaa");
+                throw new resourcesTest("A");
             }
             while (temp_in.hasNext()) temp_out.println(temp_in.next());
         } catch (FileNotFoundException e) {

@@ -3,6 +3,12 @@ package Test.Collection;
 
 import java.util.*;
 
+/**
+ * ArrayList底层是new一个容量为10的Object数组
+ * 扩容扩一半，是整数除法
+ *
+ * HashMap的扩容是原值的一倍，初始值是16
+ */
 public class ListTest {
     public static List<Integer> ListOfRandInteger(int length, int n) {
         Random rand = new Random(47);

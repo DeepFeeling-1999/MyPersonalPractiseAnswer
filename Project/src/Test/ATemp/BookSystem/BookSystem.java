@@ -36,7 +36,7 @@ public class BookSystem {
                         break;
                     case 5: BookFunction.modifyBook(myConnection);
                         break;
-                    case 6: BookFunction.showBook(myConnection);
+                    case 6: BookFunction.show(myConnection,"call showBook()");
                         break;
 
                     default: System.out.println("请输入1-7！");

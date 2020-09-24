@@ -18,10 +18,10 @@ public class MapTest {
 
         staff.put("222", new Employee("zzz"));
         staff.put("111", new Employee("bbb"));
-        staff.put("333", new Employee("aaa"));
+        staff.put("333", new Employee("A"));
         staff.put("666", new Employee("zzz"));
         staff.put("555", new Employee("bbb"));
-        staff.put("777", new Employee("aaa"));
+        staff.put("777", new Employee("A"));
 
         //调用toString方法
         System.out.println(staff);

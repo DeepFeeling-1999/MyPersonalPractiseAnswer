@@ -33,17 +33,18 @@ public class Employee {
 
     @Override
     public boolean equals(Object otherObject) {
-        if (this == otherObject)       //如果引用同一个对象
-        {
+        //如果引用同一个对象
+        if (this == otherObject) {
             return true;
         }
-        if (otherObject == null)       //如果为空
-        {
+        //如果为空
+        if (otherObject == null) {
             return false;
         }
-        if (getClass() != otherObject.getClass())  //子类拥有自己相等的概念，则用getClass检测是否是同一个类
-        {
-            return false;                       //如果由父类决定是否是同一个类的概念则用
+        //子类拥有自己相等的概念，则用getClass检测是否是同一个类
+        if (getClass() != otherObject.getClass()) {
+            //如果由父类决定是否是同一个类的概念则用
+            return false;
         }
         // instanceof 来检测两个参数是否可以转换
 

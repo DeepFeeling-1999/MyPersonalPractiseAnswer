@@ -14,8 +14,8 @@ public class EqualsTest {
         System.out.println("test1.equals(bob): " + (test1.equals(bob)));
         System.out.println("bob.toString " + bob);
 
-        Manager boss1 = new Manager("aaa", 80000, 1999, 11, 11);
-        Manager boss2 = new Manager("aaa", 80000, 1999, 11, 11);
+        Manager boss1 = new Manager("A", 80000, 1999, 11, 11);
+        Manager boss2 = new Manager("A", 80000, 1999, 11, 11);
 
         boss2.setBonus(5000);
         System.out.println("boss2.toString():" + boss2);

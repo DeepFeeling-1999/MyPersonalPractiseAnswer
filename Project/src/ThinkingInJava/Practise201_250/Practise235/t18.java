@@ -5,7 +5,7 @@ import java.util.*;
 public class t18 {
     public static void main(String[] args) {
         Map<temp1, temp2> m1 = new HashMap<>();
-        m1.put(new temp1(0), new temp2("aaa"));
+        m1.put(new temp1(0), new temp2("A"));
         m1.put(new temp1(6), new temp2("fff"));
         m1.put(new temp1(4), new temp2("zzz"));
         m1.put(new temp1(9), new temp2("hhh"));

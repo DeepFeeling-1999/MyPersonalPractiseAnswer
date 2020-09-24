@@ -11,7 +11,7 @@ public class ArrayListTest {
         staff.ensureCapacity(6);        //预估可能的容量，后面可以继续扩容
         System.out.println("The array list size is " + staff.size());
 
-        staff.add(new Employee("aaa", 1111, 1111, 1, 1));
+        staff.add(new Employee("A", 1111, 1111, 1, 1));
         staff.add(new Employee("bbb", 2222, 2222, 2, 2));
         staff.add(new Employee("ccc", 3333, 3333, 3, 3));
 
