@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * VM Args：-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+ */
 public class Test {
     static class OOMObject{
     }
