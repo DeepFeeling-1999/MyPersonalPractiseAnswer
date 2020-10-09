@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class FilePathTest {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner temp_in = new Scanner((new FileInputStream("src\\ideaResources//test.txt")),
+        Scanner temp_in = new Scanner((new FileInputStream("src\\ideaResources//t3.txt")),
                                       String.valueOf(StandardCharsets.UTF_8)
         );
 

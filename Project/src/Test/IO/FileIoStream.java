@@ -7,7 +7,7 @@ import java.io.*;
  */
 public class FileIoStream {
     public static void main(String[]args) throws IOException {
-        File myFile=new File("src\\ideaResources//test.txt");
+        File myFile=new File("src\\ideaResources//t3.txt");
 
         if(!myFile.exists()){
             try{

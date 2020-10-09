@@ -24,11 +24,11 @@ class superClass {
 
 class test extends superClass implements i1, i2, i3, CanClimb {
     public void fun2() {
-        System.out.println("test fun2");
+        System.out.println("t3 fun2");
     }
 
     public void fun3() {
-        System.out.println("test fun3");
+        System.out.println("t3 fun3");
     }
 
     public void CanClimb() {

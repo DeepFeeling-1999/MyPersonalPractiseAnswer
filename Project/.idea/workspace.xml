@@ -39,9 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YOXQKkfPafhj1CWOCVJHScAWns" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -68,7 +66,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.16049382" />
   </component>
   <component name="RecentsManager">
@@ -82,13 +80,13 @@
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCountGC">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.Test" />
+  <component name="RunManager" selected="Application.ClassTest">
+    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.TestClass.ClassTest" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A.*" />
+          <option name="PATTERN" value="JVM.TestClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,35 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="JVM.DirectMemoryOOM.Test" />
-      <module name="Project" />
-      <option name="VM_PARAMETERS" value="-Xmx20m -Xmx20m -XX:MaxDirectMemorySize=10m -XX:+HeapDumpOnOutOfMemoryError" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JVM.DirectMemoryOOM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.Test" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JVM.HeapOOM.Test" />
+    <configuration name="HeepOomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.HeapOOM.HeepOomTest" />
       <module name="Project" />
       <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError" />
       <extension name="coverage">
@@ -137,13 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCountGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JVM.ReferenceCountingGc.TestCountGC" />
+    <configuration name="TellAllocationTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.TellAllocation.TellAllocationTest" />
       <module name="Project" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGC" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:SurvivorRatio=8 " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JVM.ReferenceCountingGc.*" />
+          <option name="PATTERN" value="JVM.TellAllocation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JVM.HeapOOM.Test" />
+    <configuration name="TenuringThreshouldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.testTenuringThreshould.TenuringThreshouldTest" />
       <module name="Project" />
-      <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails  -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1  -XX:+PrintTenuringDistribution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JVM.HeapOOM.*" />
+          <option name="PATTERN" value="JVM.testTenuringThreshould.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,29 +164,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.testTenuringThreshould.test" />
+      <module name="Project" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1 -XX:+PrintTenuringDistribution " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JVM.testTenuringThreshould.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.testTenuringThreshould.test" />
+      <module name="Project" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:SurvivorRatio=8 -XX:+PrintTenuringDistribution " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JVM.testTenuringThreshould.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.TellAllocationTest" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestCountGC" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.HeepOomTest" />
+      <item itemvalue="Application.TenuringThreshouldTest" />
+      <item itemvalue="Application.ClassTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestCountGC" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ClassTest" />
+        <item itemvalue="Application.TenuringThreshouldTest" />
+        <item itemvalue="Application.TellAllocationTest" />
+        <item itemvalue="Application.TellAllocationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -420,6 +410,31 @@
       <workItem from="1600928302664" duration="1292000" />
       <workItem from="1600933868749" duration="59000" />
       <workItem from="1600936485823" duration="11194000" />
+      <workItem from="1601006811701" duration="255000" />
+      <workItem from="1601036055497" duration="1448000" />
+      <workItem from="1601078823493" duration="6376000" />
+      <workItem from="1601087122538" duration="77000" />
+      <workItem from="1601097605470" duration="143000" />
+      <workItem from="1601097763035" duration="3837000" />
+      <workItem from="1601112456720" duration="138000" />
+      <workItem from="1601112609247" duration="283000" />
+      <workItem from="1601112912179" duration="842000" />
+      <workItem from="1601113776807" duration="67000" />
+      <workItem from="1601113858860" duration="51000" />
+      <workItem from="1601114102314" duration="7000" />
+      <workItem from="1601127576589" duration="594000" />
+      <workItem from="1601302082094" duration="1000" />
+      <workItem from="1601373329562" duration="4065000" />
+      <workItem from="1601379619959" duration="2748000" />
+      <workItem from="1601385985179" duration="90000" />
+      <workItem from="1601386080579" duration="2000" />
+      <workItem from="1601386462822" duration="1000" />
+      <workItem from="1601387111137" duration="1012000" />
+      <workItem from="1601430790243" duration="3199000" />
+      <workItem from="1601449784850" duration="1429000" />
+      <workItem from="1601457770626" duration="13000" />
+      <workItem from="1601460921281" duration="2616000" />
+      <workItem from="1602239404295" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -696,6 +711,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
       <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/src/Interview" />
     </ignored-roots>
     <MESSAGE value="2020 3 17 22.29" />
     <MESSAGE value="2020 3 21 14.29" />
@@ -725,10 +741,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="2020 5 28 23.28" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="276" y="96" width="959" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600952266436">
+    <state x="458" y="0" width="959" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601431671205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="276" y="96" width="959" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600952266436" />
+    <state x="458" y="0" width="959" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601431671205" />
     <state x="929" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600944924540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -737,10 +753,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="689" y="149" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1600915340603" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1600238182520">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1601084304816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600238182520" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601084304816" />
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600928546220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -757,42 +773,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600919018483" />
-    <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1600955826612">
+    <state width="862" height="528" key="GridCell.Tab.0.bottom" timestamp="1601474022438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.0.center" timestamp="1600955826612">
+    <state width="862" height="528" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601474022438" />
+    <state width="862" height="528" key="GridCell.Tab.0.center" timestamp="1601474022438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.0.left" timestamp="1600955826612">
+    <state width="862" height="528" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601474022438" />
+    <state width="862" height="528" key="GridCell.Tab.0.left" timestamp="1601474022438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.0.right" timestamp="1600955826612">
+    <state width="862" height="528" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601474022438" />
+    <state width="862" height="528" key="GridCell.Tab.0.right" timestamp="1601474022438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.1.bottom" timestamp="1600955826612">
+    <state width="862" height="528" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601474022438" />
+    <state width="798" height="301" key="GridCell.Tab.1.bottom" timestamp="1601085259761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.1.center" timestamp="1600955826612">
+    <state width="798" height="301" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601085259761" />
+    <state width="798" height="301" key="GridCell.Tab.1.center" timestamp="1601085259761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.1.left" timestamp="1600955826612">
+    <state width="798" height="301" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601085259761" />
+    <state width="798" height="301" key="GridCell.Tab.1.left" timestamp="1601085259761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state width="1493" height="301" key="GridCell.Tab.1.right" timestamp="1600955826612">
+    <state width="798" height="301" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601085259761" />
+    <state width="798" height="301" key="GridCell.Tab.1.right" timestamp="1601085259761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600955826612" />
-    <state x="430" y="86" width="933" height="707" key="SettingsEditor" timestamp="1600944702134">
+    <state width="798" height="301" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601085259761" />
+    <state x="105" y="87" width="1063" height="707" key="SettingsEditor" timestamp="1601461227684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="86" width="933" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600944702134" />
+    <state x="105" y="87" width="1063" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601461227684" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1116,6 +1132,11 @@
           <url>file://$PROJECT_DIR$/src/Thread/OperationVariable/CallInOrder.java</url>
           <line>80</line>
           <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A/f1/f1.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>

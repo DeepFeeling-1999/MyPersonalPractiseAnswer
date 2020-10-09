@@ -11,7 +11,7 @@ class OuterClass {
         }
 
         public String test() {
-            return "InnerClass test";
+            return "InnerClass t3";
         }
     }
 
@@ -20,7 +20,7 @@ class OuterClass {
     }
 
     public String test() {
-        return "OuterClass test";
+        return "OuterClass t3";
     }
 }
 
@@ -29,8 +29,8 @@ class temp {
     private OuterClass.InnerClass i1 = o1.new InnerClass();
 
     public temp() {
-        System.out.println("InnerClass test + " + i1.test());
-        System.out.println("OuterClass test + " + o1.test());
+        System.out.println("InnerClass t3 + " + i1.test());
+        System.out.println("OuterClass t3 + " + o1.test());
     }
 
     ;

@@ -25,7 +25,7 @@ class test {
     }
 
     public void testInnerClass() {
-        InnerClass tempInnerClass = new InnerClass("test Inner Class in Outer class function");
+        InnerClass tempInnerClass = new InnerClass("t3 Inner Class in Outer class function");
         tempInnerClass.setSt1("666666");
     }
 }

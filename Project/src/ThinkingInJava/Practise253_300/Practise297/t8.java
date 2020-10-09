@@ -7,7 +7,7 @@ public class t8 {
 
     public static void main(String[] args) {
         String[] ar = test.split("[b]");
-        // System.out.println(test.replaceAll("[aeiouAEIOU]","_"));
+        // System.out.println(t3.replaceAll("[aeiouAEIOU]","_"));
         for (String st : ar) {
             System.out.println(st);
         }

@@ -16,11 +16,11 @@ package Test.Static;
 public class StaticTest extends Base {
 
     static {
-        System.out.println("test static");
+        System.out.println("t3 static");
     }
 
     public StaticTest() {
-        System.out.println("test constructor");
+        System.out.println("t3 constructor");
     }
 
     public static void main(String[] args) {

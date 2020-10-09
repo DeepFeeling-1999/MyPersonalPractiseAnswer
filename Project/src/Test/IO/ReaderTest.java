@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class ReaderTest {
     public static void main(String[]args){
-        File myFile=new File("src\\ideaResources//test.txt");
+        File myFile=new File("src\\ideaResources//t3.txt");
 
         if(!myFile.exists()){
             try{
