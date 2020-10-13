@@ -21,7 +21,7 @@ class subClass extends superClass {
     int subNum = 2;
 
     void draw() {
-        System.out.println("Subclass draw+ subNum = " + subNum);
+        System.out.println("SubClass draw+ subNum = " + subNum);
     }
 
     public subClass() {

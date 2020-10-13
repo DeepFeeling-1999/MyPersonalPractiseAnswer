@@ -1,4 +1,4 @@
-package JVM.StringIntern;
+package Jvm.StringIntern;
 
 public class StringInternTest {
     public static void main(String[]args){

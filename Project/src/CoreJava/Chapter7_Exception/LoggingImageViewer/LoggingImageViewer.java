@@ -78,6 +78,7 @@ class ImageViewerFrame extends JFrame {
     }
 
     private class FileOpenListener implements ActionListener {
+        @Override
         public void actionPerformed(ActionEvent event) {
             logger.entering("ImageViewerFrame.FileOpenListener", "actionPerformed", event);
 

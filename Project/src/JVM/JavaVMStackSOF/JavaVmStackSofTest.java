@@ -1,4 +1,4 @@
-package JVM.JavaVMStackSOF;
+package Jvm.JavaVMStackSOF;
 
 /**
  * VM Args: -Xss128k

@@ -42,12 +42,7 @@ public class TestDemo {
 
         new Thread(futureTask,"A").start();
         new Thread(futureTask,"B").start();
-
-
-
         System.out.println(Thread.currentThread().getName()+"+ 完成");
-
-
         /**
          * V get():获取结果，如果这个计算任务还没有执行结束，该调用线程会进入阻塞状态。
          */

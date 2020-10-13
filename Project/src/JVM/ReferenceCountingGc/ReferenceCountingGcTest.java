@@ -1,4 +1,4 @@
-package JVM.ReferenceCountingGc;
+package Jvm.ReferenceCountingGc;
 
 /**
  * VM Args: -XX:+PrintGC

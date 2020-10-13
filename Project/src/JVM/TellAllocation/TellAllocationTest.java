@@ -1,4 +1,4 @@
-package JVM.TellAllocation;
+package Jvm.TellAllocation;
 
 /**
  * VM args: -verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:SurvivorRatio=8

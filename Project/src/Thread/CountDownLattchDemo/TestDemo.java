@@ -21,8 +21,8 @@ public class TestDemo {
                 countDownLatch.countDown();
             }, String.valueOf(i)).start();
         }
-            countDownLatch.await();
-            System.out.println(Thread.currentThread().getName() + "\t结束");
+        countDownLatch.await();
+        System.out.println(Thread.currentThread().getName() + "\t结束");
 
     }
 
@@ -32,7 +32,6 @@ public class TestDemo {
                 System.out.println(Thread.currentThread().getName() + "线程内");
             }, String.valueOf(i)).start();
         }
-            System.out.println(Thread.currentThread().getName() + "main结束");
-
+        System.out.println(Thread.currentThread().getName() + "main结束");
     }
 }

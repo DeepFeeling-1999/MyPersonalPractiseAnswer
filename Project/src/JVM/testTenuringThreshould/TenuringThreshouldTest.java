@@ -1,6 +1,4 @@
-package JVM.testTenuringThreshould;
-
-import java.util.concurrent.TimeUnit;
+package Jvm.testTenuringThreshould;
 
 /**
  * -verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails

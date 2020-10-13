@@ -1,4 +1,4 @@
-package JVM.HeapOOM;
+package Jvm.HeapOOM;
 
 import java.util.ArrayList;
 import java.util.List;

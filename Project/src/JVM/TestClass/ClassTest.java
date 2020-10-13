@@ -1,14 +1,21 @@
-package JVM.TestClass;
+package Jvm.TestClass;
 
 /**
  * @author dell
  */
 public class ClassTest {
-    private int m;
     public int inc(){
-        return m+1;
+        int x;
+        try{
+            x=1;
+            return x;
+        }catch (Exception e){
+            x=2;
+            return x;
+        }finally {
+            x=3;
+        }
     }
     public static void main(String[]args){
-
     }
 }
