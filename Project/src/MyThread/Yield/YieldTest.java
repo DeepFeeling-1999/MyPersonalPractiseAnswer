@@ -3,6 +3,11 @@ package MyThread.Yield;
 /**
  * @author Deep-Feeling-1999
  * @create 2020/10/13
+ *
+ * 通知CPU当前线程放弃剩余时间片，并没有被阻塞，而是出于就绪状态，
+ * 表示现在就可以进行线程调度
+ * 线程调度器会从线程就绪队列里获取优先级最高的线程，
+ * 也可能会调度到当前线程
  */
 public class YieldTest implements Runnable {
     public YieldTest() {

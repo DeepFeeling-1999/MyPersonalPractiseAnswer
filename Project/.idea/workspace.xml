@@ -82,13 +82,13 @@
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptedAndIsInterrupted2">
-    <configuration name="InterruptedAndIsInterrupted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.Interrupt.InterruptedAndIsInterrupted" />
+  <component name="RunManager" selected="Application.InheritableThreadLocalTest">
+    <configuration name="ExtendsThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.MyThreadLocal.ExtendsThreadLocal" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.Interrupt.*" />
+          <option name="PATTERN" value="MyThread.MyThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptedAndIsInterrupted2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.Interrupt.InterruptedAndIsInterrupted2" />
+    <configuration name="InheritableThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.MyThreadLocal.InheritableThreadLocalTest" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.Interrupt.*" />
+          <option name="PATTERN" value="MyThread.MyThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.ThreadJoin.JoinInterrupt" />
+    <configuration name="MyThread6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.p8.MyThread6" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.ThreadJoin.*" />
+          <option name="PATTERN" value="A.p8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.p8.MyThread7" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A.p8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,25 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.Yield.YieldTest" />
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.MyThreadLocal.ThreadLocalTest" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.Yield.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.ThreadJoin.aaa" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.ThreadJoin.*" />
+          <option name="PATTERN" value="MyThread.MyThreadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +177,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TellAllocationTest" />
-      <item itemvalue="Application.JoinInterrupt" />
-      <item itemvalue="Application.aaa" />
-      <item itemvalue="Application.YieldTest" />
-      <item itemvalue="Application.InterruptedAndIsInterrupted" />
-      <item itemvalue="Application.InterruptedAndIsInterrupted2" />
+      <item itemvalue="Application.ThreadLocalTest" />
+      <item itemvalue="Application.MyThread7" />
+      <item itemvalue="Application.MyThread6" />
+      <item itemvalue="Application.ExtendsThreadLocal" />
+      <item itemvalue="Application.InheritableThreadLocalTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterruptedAndIsInterrupted2" />
-        <item itemvalue="Application.InterruptedAndIsInterrupted" />
-        <item itemvalue="Application.YieldTest" />
-        <item itemvalue="Application.JoinInterrupt" />
-        <item itemvalue="Application.aaa" />
+        <item itemvalue="Application.InheritableThreadLocalTest" />
+        <item itemvalue="Application.ExtendsThreadLocal" />
+        <item itemvalue="Application.MyThread6" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.MyThread7" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +435,9 @@
       <workItem from="1602500764258" duration="5721000" />
       <workItem from="1602551646139" duration="1188000" />
       <workItem from="1602569814470" duration="10914000" />
-      <workItem from="1602592578766" duration="6161000" />
+      <workItem from="1602592578766" duration="6502000" />
+      <workItem from="1602635742096" duration="5143000" />
+      <workItem from="1602671443894" duration="8802000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -778,22 +780,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600919018483" />
-    <state width="870" height="193" key="GridCell.Tab.0.bottom" timestamp="1602598982972">
+    <state width="870" height="197" key="GridCell.Tab.0.bottom" timestamp="1602684828795">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="193" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602598982972" />
-    <state width="870" height="193" key="GridCell.Tab.0.center" timestamp="1602598982972">
+    <state width="870" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
+    <state width="870" height="197" key="GridCell.Tab.0.center" timestamp="1602684828795">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="193" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602598982972" />
-    <state width="870" height="193" key="GridCell.Tab.0.left" timestamp="1602598982972">
+    <state width="870" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
+    <state width="870" height="197" key="GridCell.Tab.0.left" timestamp="1602684828795">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="193" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602598982972" />
-    <state width="870" height="193" key="GridCell.Tab.0.right" timestamp="1602598982972">
+    <state width="870" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
+    <state width="870" height="197" key="GridCell.Tab.0.right" timestamp="1602684828795">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="193" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602598982972" />
+    <state width="870" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
     <state width="1493" height="309" key="GridCell.Tab.1.bottom" timestamp="1602420736768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
