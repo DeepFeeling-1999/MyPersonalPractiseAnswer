@@ -11,14 +11,19 @@ class CDate {
         this.day = day;
     }
 
+    /**
+     * 判断是否是闰年
+     */
     boolean judge(int year) {
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
     }
 
+    /**
+     *判断这个月的天数，年份使用调用类的年份计
+     */
     int daysInMonth(int month) {
-        //默认是2020年，闰年
         switch (month) {
-            case 2: return 29;
+            case 2: return (28+(judge(this.year) ?1:0));
             case 1:
             case 3:
             case 5:
@@ -34,6 +39,9 @@ class CDate {
         }
     }
 
+    /**
+     * 计算某年某月的天数
+     */
     int daysInMonth(int year,int month) {
         switch (month) {
             case 2: return (28+(judge(year) ?1:0));
@@ -54,8 +62,9 @@ class CDate {
 
     int howManyDays() {
         int result=0;
-        switch (month){
-            case 12:result+=31;
+
+        //计算整月的天数，如四月则加上1/2/3月的天数
+        switch (month-1){
             case 11:result+=30;
             case 10:result+=31;
             case 9:result+=30;
@@ -68,8 +77,10 @@ class CDate {
             case 2:result+=(28+(judge(year) ?1:0));
             case 1:result+=31;break;
 
-            default:return -1;
+            default:break;
         }
+
+        //加上当前月份的天数
         return result+day;
     }
 }
@@ -94,6 +105,5 @@ public class t4 {
         System.out.println("2008年4月8是第  "+cDate.howManyDays());
         System.out.println("2007年4月8是第  "+(new CDate(2007,4,8)).howManyDays());
         System.out.println("***********************\n");
-
     }
 }

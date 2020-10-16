@@ -1,4 +1,4 @@
-package MyThread.MyThreadLocal;
+package MyThread.ThreadLocalTest;
 
 /**
  * @author Deep-Feeling-1999

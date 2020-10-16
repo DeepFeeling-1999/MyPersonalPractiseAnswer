@@ -1,5 +1,7 @@
 package A.p3;
 
+import A.p6.CCicle;
+
 class CPoint {
     private int x;
     private int y;
@@ -31,14 +33,15 @@ class CPoint {
         return "CPoint{" + "x=" + x + ", y=" + y + '}';
     }
 }
-class CCirle extends CPoint{
+
+class CCircle extends CPoint {
     private double radius;
 
-    public CCirle() {
+    public CCircle() {
         this.radius = -1;
     }
 
-    public CCirle(int x, int y, double radius) {
+    public CCircle(int x, int y, double radius) {
         super(x, y);
         this.radius = radius;
     }
@@ -58,4 +61,10 @@ class CCirle extends CPoint{
         return super.getY();
     }
 }
-public class t3 {}
+
+public class t3 {
+    public static void main(String[] args) {
+        CPoint cPoint = new CPoint(6, 6);
+        CCircle cCircle = new CCircle(6, 6, 6.66);
+    }
+}

@@ -5,6 +5,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author Deep-Feeling-1999
  * @create 2020/10/10
+ *
+ * 先输出完a后输出b
+ * 使用Object的join函数，等待线程完成
  */
 public class MyThread7 {
     public static void main(String[] args) throws InterruptedException {
@@ -31,11 +34,12 @@ public class MyThread7 {
         }, "B");
 
 
-        //********先a后b
+        //t1启动
         t1.start();
+        //等待t1完成
         t1.join();
 
+        //此时t1已经完成，t2运行
         t2.start();
-
     }
 }

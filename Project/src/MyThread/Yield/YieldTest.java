@@ -1,5 +1,8 @@
 package MyThread.Yield;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author Deep-Feeling-1999
  * @create 2020/10/13
@@ -32,6 +35,7 @@ public class YieldTest implements Runnable {
         new YieldTest();
         new YieldTest();
 
+        Map<String,String> map=new HashMap<>(5);
         new YieldTest();
 
     }

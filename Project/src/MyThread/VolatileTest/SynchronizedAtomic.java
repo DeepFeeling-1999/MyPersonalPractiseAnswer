@@ -8,6 +8,8 @@ package MyThread.VolatileTest;
  * 使用Synchronized可以保证原子性（一系列操作全部执行完毕，不会只执行一部分）
  * 和内存可见性（更新后互相可见，保证是最新值）
  * 但是是重锁，会带来线程上下文切换的开销
+ *
+ * Volatile
  */
 public class SynchronizedAtomic {
     private int value = 0;

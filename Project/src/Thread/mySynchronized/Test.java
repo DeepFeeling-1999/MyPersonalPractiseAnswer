@@ -6,14 +6,14 @@ import java.util.concurrent.TimeUnit;
  * 只要在一个资源类里，不管有多少个synchronized方法
  * 在某个时刻只要有一个线程去访问了这些synchronized方法，
  * 锁的是当前资源类对象this（对象），被锁定后，其他线程都不能进入当前这个对象的其他synchronized方法
- * <p>
+ *
  * 普通方法不影响
- * <p>
+ *
  * 对于同步方法块，锁的是Synchronized括号里配置的对象或类
  * 只有方法快会被锁，方法外不会锁
- * <p>
- * static同步方法锁的是class（类），别的对象访问静态同步方法也会被锁
- * <p>
+ *
+ * * static同步方法锁的是class（类），别的对象访问静态同步方法也会被锁
+ *
  * 静态同步方法和非静态同步方法之间不会有竞争
  */
 

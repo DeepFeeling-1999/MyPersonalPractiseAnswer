@@ -55,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/A/p4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,13 +82,13 @@
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InheritableThreadLocalTest">
-    <configuration name="ExtendsThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.MyThreadLocal.ExtendsThreadLocal" />
+  <component name="RunManager" selected="Application.Atomic">
+    <configuration name="Atomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.CAS.AtomicLongTest.Atomic" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.MyThreadLocal.*" />
+          <option name="PATTERN" value="MyThread.CAS.AtomicLongTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritableThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.MyThreadLocal.InheritableThreadLocalTest" />
+    <configuration name="DeadLockTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.DeadLock.DeadLockTest1" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.MyThreadLocal.*" />
+          <option name="PATTERN" value="MyThread.DeadLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,8 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.p8.MyThread6" />
+    <configuration name="HelloTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.ReentrantLock.HelloTest" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyThread.ReentrantLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.p8.MyThread7_2" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
@@ -122,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.p8.MyThread7" />
+    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.ThreadLocalRandomTest.RandomTest" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A.p8.*" />
+          <option name="PATTERN" value="MyThread.ThreadLocalRandomTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,47 +162,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.MyThreadLocal.ThreadLocalTest" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.MyThreadLocal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.TellAllocationTest" />
-      <item itemvalue="Application.ThreadLocalTest" />
-      <item itemvalue="Application.MyThread7" />
-      <item itemvalue="Application.MyThread6" />
-      <item itemvalue="Application.ExtendsThreadLocal" />
-      <item itemvalue="Application.InheritableThreadLocalTest" />
+      <item itemvalue="Application.MyThread7_2" />
+      <item itemvalue="Application.DeadLockTest1" />
+      <item itemvalue="Application.HelloTest" />
+      <item itemvalue="Application.RandomTest" />
+      <item itemvalue="Application.Atomic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InheritableThreadLocalTest" />
-        <item itemvalue="Application.ExtendsThreadLocal" />
-        <item itemvalue="Application.MyThread6" />
-        <item itemvalue="Application.ThreadLocalTest" />
-        <item itemvalue="Application.MyThread7" />
+        <item itemvalue="Application.Atomic" />
+        <item itemvalue="Application.RandomTest" />
+        <item itemvalue="Application.HelloTest" />
+        <item itemvalue="Application.DeadLockTest1" />
+        <item itemvalue="Application.MyThread7_2" />
       </list>
     </recent_temporary>
   </component>
@@ -438,6 +436,19 @@
       <workItem from="1602592578766" duration="6502000" />
       <workItem from="1602635742096" duration="5143000" />
       <workItem from="1602671443894" duration="8802000" />
+      <workItem from="1602758769810" duration="4782000" />
+      <workItem from="1602763625898" duration="4000" />
+      <workItem from="1602766007439" duration="1215000" />
+      <workItem from="1602767356307" duration="6000" />
+      <workItem from="1602767379979" duration="2000" />
+      <workItem from="1602767389766" duration="22000" />
+      <workItem from="1602767547174" duration="6000" />
+      <workItem from="1602767577276" duration="43000" />
+      <workItem from="1602767632042" duration="16000" />
+      <workItem from="1602767669441" duration="5000" />
+      <workItem from="1602767687590" duration="3353000" />
+      <workItem from="1602806769073" duration="9440000" />
+      <workItem from="1602853767847" duration="3457000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -780,42 +791,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600919018483" />
-    <state width="870" height="197" key="GridCell.Tab.0.bottom" timestamp="1602684828795">
+    <state width="954" height="143" key="GridCell.Tab.0.bottom" timestamp="1602857657279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
-    <state width="870" height="197" key="GridCell.Tab.0.center" timestamp="1602684828795">
+    <state width="954" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
+    <state width="954" height="143" key="GridCell.Tab.0.center" timestamp="1602857657279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
-    <state width="870" height="197" key="GridCell.Tab.0.left" timestamp="1602684828795">
+    <state width="954" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
+    <state width="954" height="143" key="GridCell.Tab.0.left" timestamp="1602857657279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
-    <state width="870" height="197" key="GridCell.Tab.0.right" timestamp="1602684828795">
+    <state width="954" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
+    <state width="954" height="143" key="GridCell.Tab.0.right" timestamp="1602857657279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602684828795" />
-    <state width="1493" height="309" key="GridCell.Tab.1.bottom" timestamp="1602420736768">
+    <state width="954" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
+    <state width="1493" height="58" key="GridCell.Tab.1.bottom" timestamp="1602763594463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602420736768" />
-    <state width="1493" height="309" key="GridCell.Tab.1.center" timestamp="1602420736768">
+    <state width="1493" height="58" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602763594463" />
+    <state width="1493" height="58" key="GridCell.Tab.1.center" timestamp="1602763594463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602420736768" />
-    <state width="1493" height="309" key="GridCell.Tab.1.left" timestamp="1602420736768">
+    <state width="1493" height="58" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602763594463" />
+    <state width="1493" height="58" key="GridCell.Tab.1.left" timestamp="1602763594463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602420736768" />
-    <state width="1493" height="309" key="GridCell.Tab.1.right" timestamp="1602420736768">
+    <state width="1493" height="58" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602763594463" />
+    <state width="1493" height="58" key="GridCell.Tab.1.right" timestamp="1602763594463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="309" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602420736768" />
-    <state x="58" y="110" width="1063" height="707" key="SettingsEditor" timestamp="1602334640397">
+    <state width="1493" height="58" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602763594463" />
+    <state x="58" y="110" width="1063" height="707" key="SettingsEditor" timestamp="1602767933469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="58" y="110" width="1063" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602334640397" />
+    <state x="58" y="110" width="1063" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602767933469" />
+    <state x="227" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602762591732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="227" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1602762591732" />
     <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1602311161739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

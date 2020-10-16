@@ -3,9 +3,13 @@ package A.p8;
 /**
  * @author Deep-Feeling-1999
  * @create 2020/10/10
+ *
+ *  //构造四个线程，并启动
+ *  此时是无序输出
  */
 public class MyThread5 {
     public static void main(String[] args) {
+
         new Thread(() -> {
             for (int i = 10; i <= 19; i++) {
                 System.out.println(Thread.currentThread().getName() + "\t" + i);
