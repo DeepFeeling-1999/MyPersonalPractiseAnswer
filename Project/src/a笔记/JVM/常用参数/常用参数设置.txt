@@ -42,6 +42,8 @@ PermGen space的全称是Permanent Generation space,是指内存的永久保存�
 
 -XX：MaxTenuringThreshold设置对象晋升老年代的年龄阈值
 
+-XX:-RestrictContended，开启@Contended注解解决伪共享
+填充的宽度默认为128，要自定义宽度则可以设置-XX:ContendedPaddingWidth参数。
 
 
 

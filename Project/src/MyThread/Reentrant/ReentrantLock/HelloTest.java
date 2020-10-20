@@ -1,4 +1,4 @@
-package MyThread.ReentrantLock;
+package MyThread.Reentrant.ReentrantLock;
 
 /**
  * @author Deep-Feeling-1999

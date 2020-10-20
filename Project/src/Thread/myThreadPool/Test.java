@@ -3,6 +3,7 @@ package Thread.myThreadPool;
 import java.util.concurrent.*;
 
 /**
+ * @author Deep-Feeling-1999
  *自定义线程池有七个参数
  * 核心线程数（常驻数目）
  * 最大线程数
@@ -19,8 +20,10 @@ import java.util.concurrent.*;
  * 这自带的三个都不用，因为默认容量很大，容易造成oom（内存溢出）
  * 固定数线程
  * Executors.newFixedThreadPool(5);
+ *
  * 单例
  * Executors.newSingleThreadExecutor();
+ *
  * 无限扩大，适用于负载较轻的场景
  * Executors.newCachedThreadPool();
  */

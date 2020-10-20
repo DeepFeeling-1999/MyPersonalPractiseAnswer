@@ -4,8 +4,9 @@ import java.sql.*;
 
 /**
  * @author dell
- * DRIVER_NAME---mysql驱动包名
- * URL--- 数据库连接地址,注意是数据库名，不是用户名
+ *
+ * DRIVER_NAME---mysql驱动包名（一般不用改）
+ * URL--- 数据库连接地址,注意是数据库名（schame），不是用户名
  * USER_NAME--- 用户名
  */
 public class BookSystem {

@@ -62,15 +62,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.23568702" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MyThread.PseudoSharing" />
       <recent name="A.p8" />
       <recent name="Test.ArrayList" />
     </key>
@@ -82,65 +84,13 @@
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Atomic">
-    <configuration name="Atomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.CAS.AtomicLongTest.Atomic" />
+  <component name="RunManager" selected="Application.TestDemo (1)">
+    <configuration name="ConditionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyThread.Reentrant.Condition.ConditionTest" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MyThread.CAS.AtomicLongTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeadLockTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.DeadLock.DeadLockTest1" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.DeadLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.ReentrantLock.HelloTest" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.ReentrantLock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyThread7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A.p8.MyThread7_2" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A.p8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.ThreadLocalRandomTest.RandomTest" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.ThreadLocalRandomTest.*" />
+          <option name="PATTERN" value="MyThread.Reentrant.Condition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,6 +112,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.CountDownLattchDemo.TestDemo" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.CountDownLattchDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.CallableDemo.TestDemo" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.CallableDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aaa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.aaa" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="f2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.f2.f2" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A.f2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -175,19 +177,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.TellAllocationTest" />
-      <item itemvalue="Application.MyThread7_2" />
-      <item itemvalue="Application.DeadLockTest1" />
-      <item itemvalue="Application.HelloTest" />
-      <item itemvalue="Application.RandomTest" />
-      <item itemvalue="Application.Atomic" />
+      <item itemvalue="Application.aaa" />
+      <item itemvalue="Application.f2" />
+      <item itemvalue="Application.ConditionTest" />
+      <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.TestDemo (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Atomic" />
-        <item itemvalue="Application.RandomTest" />
-        <item itemvalue="Application.HelloTest" />
-        <item itemvalue="Application.DeadLockTest1" />
-        <item itemvalue="Application.MyThread7_2" />
+        <item itemvalue="Application.TestDemo (1)" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.ConditionTest" />
+        <item itemvalue="Application.f2" />
+        <item itemvalue="Application.aaa" />
       </list>
     </recent_temporary>
   </component>
@@ -449,6 +451,23 @@
       <workItem from="1602767687590" duration="3353000" />
       <workItem from="1602806769073" duration="9440000" />
       <workItem from="1602853767847" duration="3457000" />
+      <workItem from="1602859076572" duration="1014000" />
+      <workItem from="1602861833607" duration="1060000" />
+      <workItem from="1602898523107" duration="4837000" />
+      <workItem from="1602916210989" duration="169000" />
+      <workItem from="1602916479502" duration="194000" />
+      <workItem from="1602917049475" duration="638000" />
+      <workItem from="1602917697633" duration="2000" />
+      <workItem from="1602918566329" duration="3813000" />
+      <workItem from="1602922428989" duration="1506000" />
+      <workItem from="1602929242800" duration="9107000" />
+      <workItem from="1602985001648" duration="594000" />
+      <workItem from="1603016741847" duration="5906000" />
+      <workItem from="1603025102928" duration="715000" />
+      <workItem from="1603088950824" duration="3105000" />
+      <workItem from="1603112002765" duration="704000" />
+      <workItem from="1603117242585" duration="1788000" />
+      <workItem from="1603191324571" duration="12424000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -771,10 +790,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="689" y="149" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1600915340603" />
-    <state x="806" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1602595223546">
+    <state x="806" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1603118131009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="806" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602595223546" />
+    <state x="806" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603118131009" />
     <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602334739131">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -791,22 +810,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="990" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600919018483" />
-    <state width="954" height="143" key="GridCell.Tab.0.bottom" timestamp="1602857657279">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1603204942748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="954" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
-    <state width="954" height="143" key="GridCell.Tab.0.center" timestamp="1602857657279">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603204942748" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1603204942748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="954" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
-    <state width="954" height="143" key="GridCell.Tab.0.left" timestamp="1602857657279">
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603204942748" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1603204942748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="954" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
-    <state width="954" height="143" key="GridCell.Tab.0.right" timestamp="1602857657279">
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603204942748" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1603204942748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="954" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602857657279" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603204942748" />
     <state width="1493" height="58" key="GridCell.Tab.1.bottom" timestamp="1602763594463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -823,10 +842,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="58" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602763594463" />
-    <state x="58" y="110" width="1063" height="707" key="SettingsEditor" timestamp="1602767933469">
+    <state x="271" y="67" width="1063" height="707" key="SettingsEditor" timestamp="1602922482944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="58" y="110" width="1063" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602767933469" />
+    <state x="271" y="67" width="1063" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602922482944" />
+    <state width="629" height="822" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1602922246710">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="629" height="822" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.824@0.0.1536.824" timestamp="1602922246710" />
     <state x="227" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602762591732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -1100,29 +1123,9 @@
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookSystem.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookSystem.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookSystem.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookFunction.java</url>
           <line>80</line>
           <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/ATemp/BookSystem/BookSystem.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/IO/FileIoStream.java</url>
@@ -1163,21 +1166,6 @@
           <url>file://$PROJECT_DIR$/src/A/f1/f1.java</url>
           <line>103</line>
           <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A/p7/t7.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Jvm/TestClass/ClassTest.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Jvm/TestClass/ClassTest.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
