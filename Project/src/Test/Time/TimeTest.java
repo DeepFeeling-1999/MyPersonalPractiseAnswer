@@ -1,11 +1,5 @@
 package Test.Time;
 
-import ThinkingInJava.Practise150_199.Practise196.temp;
-
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class TimeTest {
     public static void main(String[] args) {
         ////TimeMills  时间毫秒

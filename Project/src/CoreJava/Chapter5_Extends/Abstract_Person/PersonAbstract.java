@@ -19,4 +19,8 @@ public abstract class PersonAbstract {
     public String getName() {
         return name;
     }
+
+    public void Test(){
+        System.out.println("abstract Test function");
+    }
 }

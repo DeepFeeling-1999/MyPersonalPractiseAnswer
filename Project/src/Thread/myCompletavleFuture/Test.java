@@ -21,7 +21,7 @@ public class Test {
         });
 
         System.out.println(completableFuture2.whenComplete((t,u)->{
-          System.out.println("t  \t"+t);
+          System.out.println("StartCapture  StartCapture"+t);
           System.out.println("u  \t"+u);
         }).exceptionally(f->{
             System.out.println("exception "+f.getMessage());

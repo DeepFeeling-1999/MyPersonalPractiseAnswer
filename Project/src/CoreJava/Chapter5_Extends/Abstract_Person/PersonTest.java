@@ -10,6 +10,8 @@ public class PersonTest {
         //抽象类引用，可以引用非抽象子类对象
         for (PersonAbstract temp : people) {
             System.out.println(temp.getName() + ", " + temp.getDescription());
+            temp.Test();
+
         }
     }
 }

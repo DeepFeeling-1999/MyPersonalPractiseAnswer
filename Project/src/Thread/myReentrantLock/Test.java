@@ -110,7 +110,7 @@ class Aircondition {
 
      //干活
      number++;
-     System.out.println(Thread.currentThread().getName()+"\t"+number);
+     System.out.println(Thread.currentThread().getName()+"\StartCapture"+number);
 
      //唤醒其他等待的线程
      this.notifyAll();

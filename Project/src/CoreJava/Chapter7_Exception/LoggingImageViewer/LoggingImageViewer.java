@@ -18,7 +18,7 @@ public class LoggingImageViewer {
                 Handler handler = new FileHandler("%h/LoggingImageViewer.log", 0, LOG_ROTATION_COUNT);
                 Logger.getLogger("com.horstmann.corejava").addHandler(handler);
             } catch (IOException e) {
-                Logger.getLogger("com.horstmann.corejava").log(Level.SEVERE, "Can't create log file handler", e);
+                Logger.getLogger("com.horstmann.corejava").log(Level.SEVERE, "Can'StartCapture create log file handler", e);
             }
         }
 

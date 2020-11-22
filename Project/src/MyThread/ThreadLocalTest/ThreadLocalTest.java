@@ -4,7 +4,7 @@ package MyThread.ThreadLocalTest;
  * @author Deep-Feeling-1999
  * @create 2020/10/14
  *
- * 创建一个ThreadLocal 访问的时候是每个线程都会有一个线程本地副本，不是共享的
+ * 创建一个ThreadLocal 访问的时候是每个线程都会有一个线程本地副本，不是共享的.
  * ThreadLocal里的value值是存放到调用线程内部的成员threadLocals里存放起来的，
  * 只是通过ThreadLocal的get方法来获取
  *

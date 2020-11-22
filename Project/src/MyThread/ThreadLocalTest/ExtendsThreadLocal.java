@@ -19,10 +19,16 @@ public class ExtendsThreadLocal {
                 System.out.println("threadTwo " + local.get());
             });
             threadTwo.start();
+            try {
+                threadTwo.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         });
 
         threadOne.start();
         threadOne.join();
+
 
         System.out.println("main " + local.get());
 
