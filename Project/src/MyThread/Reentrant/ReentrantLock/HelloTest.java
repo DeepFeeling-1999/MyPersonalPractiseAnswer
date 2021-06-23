@@ -4,7 +4,7 @@ package MyThread.Reentrant.ReentrantLock;
  * @author Deep-Feeling-1999
  * @create 2020/10/16
  *
- * 可重入锁，即只要改线程获取了该锁，就可以无限的进入被锁住的代码
+ * 可重入锁，即只要该线程获取了该锁，就可以无限的进入被锁住的代码
  * synchronized内部是可重入锁
  *
  * 可重入锁的原理是在锁内部维护一个线程标识

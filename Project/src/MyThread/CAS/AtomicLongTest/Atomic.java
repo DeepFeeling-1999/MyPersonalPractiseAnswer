@@ -8,6 +8,8 @@ import java.util.concurrent.atomic.AtomicLong;
  *
  * 多线程使用AtomicLong统计0的个数
  * 内部使用unsafe方法，原子性设置value值为原始值+1
+ *
+ * 但是只有一个原子变量，会导致大量线程竞争同一个
  */
 public class Atomic {
     private static AtomicLong atomicLong = new AtomicLong();
@@ -19,14 +21,15 @@ public class Atomic {
         Thread threadOne = new Thread(() -> {
             int size = arrayOne.length;
             for (int i = 0; i < size; ++i) {
-                if (arrayOne[i].intValue() == 0) {
+                if (arrayOne[i] == 0) {
                     atomicLong.incrementAndGet();
                 }
             }
         });
+
         Thread threadTwo = new Thread(() -> {
             for (int i = 0; i < arrayTwo.length; ++i) {
-                if (arrayTwo[i].intValue() == 0) {
+                if (arrayTwo[i] == 0) {
                     atomicLong.incrementAndGet();
                 }
             }

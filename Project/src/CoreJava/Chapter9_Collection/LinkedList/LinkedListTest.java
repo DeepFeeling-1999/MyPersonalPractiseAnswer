@@ -16,6 +16,13 @@ import java.util.ListIterator;
  * <p>
  * Iterator 接口有四个方法 E next(); boolean hasNext(); void remove();
  * default void forEachRemaining(Consumer<? super E> action);
+ *
+ *
+ * hasNext:没有指针下移操作，只是判断是否存在下一个元素
+ *
+ * next：指针下移，返回该指针所指向的元素
+ *
+ * remove：删除当前指针所指向的元素，一般和next方法一起用，这时候的作用就是删除next方法返回的元素
  */
 public class LinkedListTest {
     public static void main(String[] args) {

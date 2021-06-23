@@ -10,7 +10,7 @@ interface test{
     //void say2(int num);
 
     /**
-     *默认实现，只可以有多个
+     *默认实现，可以有多个
      */
     default int mul0(int x,int y){
         return x*y;

@@ -9,6 +9,10 @@ import java.util.concurrent.atomic.LongAdder;
  *
  * 用来解决AtomicLong竞争同一个变量的自旋CAS操作浪费CPU资源问题
  * 内部维护多个Cell变量，在获取当前值时把所有cell累加再加上base返回
+ *
+ * 而且竞争失败后，会去别的cell上自旋CAS，从而增加
+ *
+ * 求总数的时候没有加锁，所以并不是特别精确
  */
 public class LongAdderTest {
     private static LongAdder longAdder = new LongAdder();

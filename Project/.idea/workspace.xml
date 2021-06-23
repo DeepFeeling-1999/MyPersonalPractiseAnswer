@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Wi/Window" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,7 +63,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -71,92 +71,27 @@
     <property name="settings.editor.splitter.proportion" value="0.23568702" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="MyThread.PseudoSharing" />
-      <recent name="A.p8" />
-      <recent name="Test.ArrayList" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\src" />
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\src\A\p4" />
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project" />
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\src\Test" />
       <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\src\Test\Clone" />
-      <recent name="F:\IdeaProjects\MyPersonalPractiseAnswer\Project\libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A.p8" />
+      <recent name="A.Test" />
+      <recent name="MyThread.PseudoSharing" />
+      <recent name="Test.ArrayList" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PersonTest">
-    <configuration name="ButtonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreJava.Chapter11_Event.ButtonFrame.ButtonTest" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A.Test.Main" />
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CoreJava.Chapter11_Event.ButtonFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExtendsThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.ThreadLocalTest.ExtendsThreadLocal" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.ThreadLocalTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreJava.Chapter5_Extends.Abstract_Person.PersonTest" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CoreJava.Chapter5_Extends.Abstract_Person.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartCapture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountDown.StartCapture" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CountDown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TellAllocationTest" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Jvm.TellAllocation.TellAllocationTest" />
-      <module name="Project" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:+PrintGCDetails -XX:SurvivorRatio=8 " />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Jvm.TellAllocation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyThread.ThreadLocalTest.ThreadLocalTest" />
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MyThread.ThreadLocalTest.*" />
+          <option name="PATTERN" value="A.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,21 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.TellAllocationTest" />
-      <item itemvalue="Application.StartCapture" />
-      <item itemvalue="Application.ExtendsThreadLocal" />
-      <item itemvalue="Application.ThreadLocalTest" />
-      <item itemvalue="Application.ButtonTest" />
-      <item itemvalue="Application.PersonTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.ButtonTest" />
-        <item itemvalue="Application.ThreadLocalTest" />
-        <item itemvalue="Application.ExtendsThreadLocal" />
-        <item itemvalue="Application.StartCapture" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -488,6 +411,66 @@
       <workItem from="1605791916787" duration="704000" />
       <workItem from="1606008279015" duration="159000" />
       <workItem from="1606012916599" duration="631000" />
+      <workItem from="1606014243067" duration="4370000" />
+      <workItem from="1606034052883" duration="3802000" />
+      <workItem from="1606044465250" duration="5647000" />
+      <workItem from="1606059433392" duration="1295000" />
+      <workItem from="1606061938889" duration="634000" />
+      <workItem from="1606097781380" duration="874000" />
+      <workItem from="1606099873131" duration="76000" />
+      <workItem from="1606099973022" duration="1933000" />
+      <workItem from="1606104627980" duration="1757000" />
+      <workItem from="1606106561610" duration="172000" />
+      <workItem from="1606106784533" duration="1302000" />
+      <workItem from="1606108158180" duration="1119000" />
+      <workItem from="1606116082747" duration="268000" />
+      <workItem from="1606179496447" duration="2027000" />
+      <workItem from="1607253987496" duration="442000" />
+      <workItem from="1607350098993" duration="638000" />
+      <workItem from="1607438011427" duration="297000" />
+      <workItem from="1607438563109" duration="199000" />
+      <workItem from="1607502475738" duration="942000" />
+      <workItem from="1607948643108" duration="429000" />
+      <workItem from="1607949652177" duration="27000" />
+      <workItem from="1607949706531" duration="621000" />
+      <workItem from="1609116452496" duration="2062000" />
+      <workItem from="1609151743104" duration="27000" />
+      <workItem from="1609288679124" duration="8803000" />
+      <workItem from="1609375159541" duration="722000" />
+      <workItem from="1609376225274" duration="78000" />
+      <workItem from="1609380305910" duration="1398000" />
+      <workItem from="1609578693042" duration="1571000" />
+      <workItem from="1609648728525" duration="1650000" />
+      <workItem from="1609723778211" duration="2000" />
+      <workItem from="1610278942528" duration="110000" />
+      <workItem from="1610517500762" duration="1000" />
+      <workItem from="1611891571161" duration="1770000" />
+      <workItem from="1611980959307" duration="9665000" />
+      <workItem from="1612060084465" duration="2854000" />
+      <workItem from="1612089652676" duration="7794000" />
+      <workItem from="1612148360846" duration="3217000" />
+      <workItem from="1612231897933" duration="3048000" />
+      <workItem from="1612860475378" duration="1257000" />
+      <workItem from="1613466764778" duration="11490000" />
+      <workItem from="1613484610916" duration="49000" />
+      <workItem from="1613484681062" duration="2364000" />
+      <workItem from="1613489805147" duration="627000" />
+      <workItem from="1613706107449" duration="2644000" />
+      <workItem from="1613747644057" duration="2200000" />
+      <workItem from="1613751807100" duration="1590000" />
+      <workItem from="1613793954617" duration="5432000" />
+      <workItem from="1613921045698" duration="21000" />
+      <workItem from="1614665393655" duration="1992000" />
+      <workItem from="1614773040140" duration="2422000" />
+      <workItem from="1614823338830" duration="3972000" />
+      <workItem from="1615188914392" duration="1093000" />
+      <workItem from="1615775755323" duration="4571000" />
+      <workItem from="1616654172038" duration="112000" />
+      <workItem from="1616655993068" duration="3698000" />
+      <workItem from="1617277112806" duration="5042000" />
+      <workItem from="1618387868351" duration="26000" />
+      <workItem from="1618388022631" duration="7000" />
+      <workItem from="1618901688414" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="2020 3 1 22.30">
       <created>1583073058239</created>
@@ -793,96 +776,6 @@
     <MESSAGE value="2020 5 28 23.28" />
     <option name="LAST_COMMIT_MESSAGE" value="2020 5 28 23.28" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="277" y="38" key="#Inspections" timestamp="1602313039097">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="38" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1602313039097" />
-    <state x="458" y="0" width="959" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601431671205">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="458" y="0" width="959" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601431671205" />
-    <state x="929" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600944924540">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="929" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600944924540" />
-    <state x="689" y="149" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600915340603">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="689" y="149" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1600915340603" />
-    <state x="806" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1603118131009">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="806" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603118131009" />
-    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602334739131">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1602334739131" />
-    <state x="809" y="274" width="473" height="502" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600330666729">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="809" y="274" width="473" height="502" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1600330666729" />
-    <state x="466" y="101" width="783" height="630" key="DiffContextDialog" timestamp="1599655457762">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="466" y="101" width="783" height="630" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1599655457762" />
-    <state x="819" y="162" key="FileChooserDialogImpl" timestamp="1605744142135">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="819" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605744142135" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1606008438252">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606008438252" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1606008438252">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606008438252" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1606008438252">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606008438252" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1606008438252">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606008438252" />
-    <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1603939887821">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603939887821" />
-    <state width="1493" height="304" key="GridCell.Tab.1.center" timestamp="1603939887821">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603939887821" />
-    <state width="1493" height="304" key="GridCell.Tab.1.left" timestamp="1603939887820">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603939887820" />
-    <state width="1493" height="304" key="GridCell.Tab.1.right" timestamp="1603939887821">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603939887821" />
-    <state x="271" y="67" width="1063" height="707" key="SettingsEditor" timestamp="1605744142793">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="271" y="67" width="1063" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605744142793" />
-    <state width="629" height="822" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1602922246710">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="629" height="822" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.824@0.0.1536.824" timestamp="1602922246710" />
-    <state x="227" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602762591732">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="227" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1602762591732" />
-    <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1602311161739">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="468" y="144" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1602311161739" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604665387729">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604665387729" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -930,11 +823,6 @@
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
           <line>31</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
@@ -1192,14 +1080,24 @@
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A/aaa.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="156" />
+          <url>file://$PROJECT_DIR$/src/CoreJava/Chapter9_Collection/LinkedList/LinkedListTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/A/aaa.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="157" />
+          <url>file://$PROJECT_DIR$/src/Test/ExceptionTest/ReThrow/ReThrow.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/ExceptionTest/ReThrow/ReThrow.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A/a2/RR.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Test/Initialization/Initialization.java</url>
@@ -1288,7 +1186,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ThinkingInJava/p10_innerclass/Practise213/BigEgg2.java</url>
           <line>6</line>
-          <properties class="ThinkingInJava.Practise201_250.Practise213.Egg2.yolk">
+          <properties class="ThinkingInJava.p10_innerclass.Practise213.Egg2.yolk">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="57" />
@@ -1296,7 +1194,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ThinkingInJava/p10_innerclass/Practise213/BigEgg2.java</url>
           <line>39</line>
-          <properties class="ThinkingInJava.Practise201_250.Practise213.BigEgg2" method="&lt;init&gt;">
+          <properties class="ThinkingInJava.p10_innerclass.Practise213.BigEgg2" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="67" />
@@ -1310,6 +1208,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/Project$t2.ic" NAME="t2 Coverage Results" MODIFIED="1587650890746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ThinkingInJava.Practise301_350.Practise318.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project$Initialization.ic" NAME="Initialization Coverage Results" MODIFIED="1613706121810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.Initialization.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Project$LanbdaSale.ic" NAME="LanbdaSale Coverage Results" MODIFIED="1599649443167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Thread.lock.SaleTicket.*</FILTER>

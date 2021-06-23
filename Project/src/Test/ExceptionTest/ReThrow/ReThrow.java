@@ -59,6 +59,10 @@ public class ReThrow {
             } catch (temp3 t3) {
                 System.out.println("catch temp1 t3 ******  " + t3);
             }
+        }finally {
+            System.out.println("finally");
         }
+
+        System.out.println("666");
     }
 }

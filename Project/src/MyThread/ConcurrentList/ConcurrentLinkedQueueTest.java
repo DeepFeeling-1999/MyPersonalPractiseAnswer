@@ -10,4 +10,5 @@ package MyThread.ConcurrentList;
  * 通过CAS操作来控制某时只有一个线程可以添加元素到队尾，
  * CAS竞争失败的会通过循环自旋来不断尝试
  */
-public class ConcurrentLinkedQueueTest {}
+public class ConcurrentLinkedQueueTest {
+}
